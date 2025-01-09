@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Project_B.Respository;
+
 namespace Project_B
 {
     public class Program
@@ -6,6 +9,11 @@ namespace Project_B
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add DbContext
+            builder.Services.AddDbContext<DataContext>(options =>
+            {
+                options.UseMySQL(builder.Configuration.GetConnectionString("DbConnection"));
+            });
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
