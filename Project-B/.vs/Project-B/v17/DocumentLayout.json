@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Project-B\\Project-B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\teamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\teamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\gallerydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\gallerydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -67,19 +103,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Project-B\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Project-B\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T10:02:05.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamDetails.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\TeamDetails.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\TeamDetails.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAM4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T10:01:03.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Team.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Team.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T10:00:46.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Map.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Map.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Map.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAwwOEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T10:00:34.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAACMDAAAAAAAAAAAwwDQDAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T10:00:08.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GalleryDetails.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:59:49.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Gallery.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Gallery.cshtml",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAwwBMCAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:59:23.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FAQ.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\FAQ.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\FAQ.cshtml",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAwwH0BAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:58:58.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Contact.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Contact.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:58:42.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Project-B\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Project-B\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-11T09:45:21.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_Layout.cshtml",
@@ -87,12 +240,11 @@
               "RelativeToolTip": "Project-B\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAUDAAAAAAAAAAAUwBEDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:35:17.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:35:17.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Project-B\\Controllers\\ProductController.cs",
@@ -104,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Program.cs",
               "RelativeDocumentMoniker": "Project-B\\Program.cs",
@@ -116,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "OrderDetailsModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderDetailsModel.cs",
@@ -128,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "OrderModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderModel.cs",
@@ -140,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ProductModel.cs",
@@ -152,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "AddressModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\AddressModel.cs",
@@ -164,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "CartItemModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CartItemModel.cs",
@@ -176,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ErrorViewModel.cs",
@@ -188,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CategoryModel.cs",
@@ -200,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "ClientModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ClientModel.cs",
