@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Project-B\\Project-B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAUDAAAAAAAAAAAUwBUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:35:17.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Project-B\\Controllers\\ProductController.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Program.cs",
               "RelativeDocumentMoniker": "Project-B\\Program.cs",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Project-B\\Program.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:25:15.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:25:15.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderDetailsModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderDetailsModel.cs",
@@ -92,12 +108,11 @@
               "RelativeToolTip": "Project-B\\Models\\OrderDetailsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:19:32.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:19:32.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OrderModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderModel.cs",
@@ -105,12 +120,11 @@
               "RelativeToolTip": "Project-B\\Models\\OrderModel.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAArwBsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:19:56.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:19:56.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ProductModel.cs",
@@ -118,12 +132,11 @@
               "RelativeToolTip": "Project-B\\Models\\ProductModel.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAUwBgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:20:17.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:20:17.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddressModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\AddressModel.cs",
@@ -131,12 +144,11 @@
               "RelativeToolTip": "Project-B\\Models\\AddressModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:17:40.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:17:40.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CartItemModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CartItemModel.cs",
@@ -144,12 +156,11 @@
               "RelativeToolTip": "Project-B\\Models\\CartItemModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:18:06.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:18:06.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ErrorViewModel.cs",
@@ -157,12 +168,11 @@
               "RelativeToolTip": "Project-B\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:24:07.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:24:07.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CategoryModel.cs",
@@ -170,12 +180,11 @@
               "RelativeToolTip": "Project-B\\Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:18:32.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:18:32.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClientModel.cs",
               "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ClientModel.cs",
@@ -183,8 +192,7 @@
               "RelativeToolTip": "Project-B\\Models\\ClientModel.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T09:18:50.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:18:50.144Z"
             }
           ]
         }

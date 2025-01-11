@@ -1,0 +1,3 @@
+C:\Project-B\Project-B\Project-B\wwwroot\css\site.css
+C:\Project-B\Project-B\Project-B\wwwroot\favicon.ico
+C:\Project-B\Project-B\Project-B\wwwroot\js\site.js
