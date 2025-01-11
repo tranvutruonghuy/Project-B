@@ -1,77 +1,120 @@
 ﻿@model IEnumerable<Project_B.Models.ProductModel>
 
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<!-- BREADCRUMB AREA START -->
+<div class="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image " data-bs-bg="../img/bg/14.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__breadcrumb-inner">
+                    <h1 class="page-title">Shop</h1>
+                    <div class="ltn__breadcrumb-list">
+                        <ul>
+                            <li><a asp-action="Index" asp-controller="Home"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
+                            <li>Shop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMB AREA END -->
+<!-- PRODUCT DETAILS AREA START -->
+<div class="ltn__product-area ltn__product-gutter mb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__shop-options">
+                    <ul>
+                        <li>
+                            <div class="ltn__grid-list-tab-menu ">
+                                <div class="nav">
+                                    <a class="active show" data-bs-toggle="tab" href="#liton_product_grid"><i class="fas fa-th-large"></i></a>
+                                    <a data-bs-toggle="tab" href="#liton_product_list"><i class="fas fa-list"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="showing-product-number text-right">
+                                <span>Showing 1–12 of 18 results</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="short-by text-center">
+                                <select class="nice-select">
+                                    <option>Default Sorting</option>
+                                    <option>Sort by popularity</option>
+                                    <option>Sort by new arrivals</option>
+                                    <option>Sort by price: low to high</option>
+                                    <option>Sort by price: high to low</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="liton_product_grid">
+                        <div class="ltn__product-tab-content-inner ltn__product-grid-view">
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <!-- ltn__product-item -->
+                                    <div class="col-xl-3 col-sm-6 col-6">
+                                        <div class="ltn__product-item ltn__product-item-3 text-center">
+                                            <div class="product-img">
+                                                <a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@item.Id"><img src="~/uploadImages/@item.Image"></a>
+                                                <div class="product-badge">
+                                                    <ul>
+                                                        <li class="sale-badge">New</li>
+                                                    </ul>
+                                                </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ShortDescription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.InStock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Unit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ShortDescription)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InStock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Unit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.Name)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                                            </div>
+                                            <div class="product-info">
+
+                                                <h2 class="product-title"><a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@item.Id">@item.Name</a></h2>
+                                                <div class="product-price">
+                                                    <span>@item.Price.ToString("#,##0")<span>vnd / </span>@item.Unit</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="liton_product_list">
+                        <div class="ltn__product-tab-content-inner ltn__product-list-view">
+                            <div class="row">
+                                <vc:products-shop-second></vc:products-shop-second>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ltn__pagination-area text-center">
+                    <div class="ltn__pagination">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- PRODUCT DETAILS AREA END -->
