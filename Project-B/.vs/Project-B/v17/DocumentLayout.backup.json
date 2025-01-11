@@ -1,85 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project-B\\Project-B\\",
+  "WorkspaceRootPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\teamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\teamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\teamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\gallerydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\gallerydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\gallerydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\about\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\about\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\about\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\orderdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\orderdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\orderdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|c:\\project-b\\project-b\\project-b\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -99,127 +103,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TeamDetails.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\TeamDetails.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\TeamDetails.cshtml",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAM4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T10:01:03.549Z",
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Project-B\\Controllers\\AboutController.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Project-B\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T10:02:05.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Team.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Team.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\Team.cshtml",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJYAAAAkAAAAAAAAAA==",
+              "Title": "TeamDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\TeamDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\TeamDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\TeamDetails.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAM4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T10:00:46.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T10:01:03.549Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Map.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Map.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\Map.cshtml",
-              "ViewState": "AgIAANAAAAAAAAAAAAAwwOEAAAAbAAAAAAAAAA==",
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Team.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Team.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Team.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T10:00:34.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T10:00:46.462Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAACMDAAAAAAAAAAAwwDQDAAAbAAAAAAAAAA==",
+              "Title": "Map.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Map.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Map.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Map.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAwwOEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T10:00:08.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T10:00:34.079Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GalleryDetails.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\GalleryDetails.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\GalleryDetails.cshtml",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKcAAAAbAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAACMDAAAAAAAAAAAwwDQDAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:59:49.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T10:00:08.506Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Gallery.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Gallery.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\Gallery.cshtml",
-              "ViewState": "AgIAAAoCAAAAAAAAAAAwwBMCAAArAAAAAAAAAA==",
+              "Title": "GalleryDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\GalleryDetails.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:59:23.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:59:49.261Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FAQ.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\FAQ.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\FAQ.cshtml",
-              "ViewState": "AgIAAG8BAAAAAAAAAAAwwH0BAAAbAAAAAAAAAA==",
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Gallery.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Gallery.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Gallery.cshtml",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAwwBMCAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:58:58.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:59:23.708Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Contact.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\About\\Contact.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIYAAAAbAAAAAAAAAA==",
+              "Title": "FAQ.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\FAQ.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\FAQ.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\FAQ.cshtml",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAwwH0BAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:58:42.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:58:58.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\About\\Contact.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\About\\Contact.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\About\\Contact.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T09:45:21.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T09:58:42.965Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T09:45:21.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Project-B\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAUDAAAAAAAAAAAUwBEDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -227,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Project-B\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Project-B\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
               "RelativeDocumentMoniker": "Project-B\\Program.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Program.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
               "RelativeToolTip": "Project-B\\Program.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +259,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderDetailsModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderDetailsModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderDetailsModel.cs",
               "RelativeToolTip": "Project-B\\Models\\OrderDetailsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,11 +271,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "OrderModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\OrderModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
               "RelativeToolTip": "Project-B\\Models\\OrderModel.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAArwBsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +283,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ProductModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ProductModel.cs",
               "RelativeToolTip": "Project-B\\Models\\ProductModel.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAUwBgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,11 +295,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AddressModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\AddressModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\AddressModel.cs",
               "RelativeToolTip": "Project-B\\Models\\AddressModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +307,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CartItemModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CartItemModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\CartItemModel.cs",
               "RelativeToolTip": "Project-B\\Models\\CartItemModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +319,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Project-B\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +331,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CategoryModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\CategoryModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\CategoryModel.cs",
               "RelativeToolTip": "Project-B\\Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +343,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ClientModel.cs",
-              "DocumentMoniker": "C:\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
               "RelativeDocumentMoniker": "Project-B\\Models\\ClientModel.cs",
-              "ToolTip": "C:\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ClientModel.cs",
               "RelativeToolTip": "Project-B\\Models\\ClientModel.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
