@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Project_B.Data;
 namespace Project_B
 {
     public class Program
@@ -5,6 +8,9 @@ namespace Project_B
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            // Add DbContext
+            var connectionString = builder.Configuration.GetConnectionString("DbConnection");
+            builder.Services.AddDbContext<DataContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect((connectionString))));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
