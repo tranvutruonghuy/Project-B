@@ -41,8 +41,10 @@ namespace Project_B.Controllers
             {
                 return NotFound();
             }
-
-            return View(productModel);
+            ViewBag.Product = productModel;
+            var category = await _context.CategoryModel.FindAsync(productModel.CategoryId);
+            ViewBag.CategoryName = category?.Name;
+            return View();
         }
 
         // GET: Product/Create
