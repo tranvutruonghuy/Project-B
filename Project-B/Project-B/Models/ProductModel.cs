@@ -17,9 +17,11 @@ namespace Project_B.Models
         public int CategoryId { get; set; }
 
         [Column(TypeName = "TEXT")]
+        [Required]
         public string Description { get; set; }
 
         [Column(TypeName = "TEXT")]
+        [Required]
         public string ShortDescription { get; set; }
 
         public int InStock { get; set; }
@@ -32,8 +34,8 @@ namespace Project_B.Models
         public string Unit { get; set; }
 
         [StringLength(255)]
-        public string Image { get; set; }
+        public string? Image { get; set; }
 
-        public virtual CategoryModel Category { get; set; }
+        public virtual CategoryModel? Category { get; set; }
     }
 }
