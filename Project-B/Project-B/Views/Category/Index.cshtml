@@ -1,47 +1,141 @@
 ﻿@model IEnumerable<Project_B.Models.CategoryModel>
 
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "CategoryList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ParentID)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ParentID)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="page-wrapper">
+
+    <!-- Page Content-->
+    <div class="page-content-tab">
+
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box">
+
+
+                        <h4 class="page-title">Category List</h4>
+                    </div><!--end page-title-box-->
+                </div><!--end col-->
+            </div>
+            <!-- end page title end breadcrumb -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-12">
+                                <a class="btn btn-outline-primary btn-sm px-4" asp-action="Create">+ Add New Category</a>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="category-list-table">
+                                    <thead>
+                                        <tr>
+
+                                            <th>Category ID</th>
+                                            <th>Category Name</th>
+                                            <th>Desription</th>
+                                            <th>Parent ID</th>
+                                            <th>Number of products</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!--do du lieu-->
+                                        @if(Model != null){
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+
+                                                    <td>@item.Id</td>
+                                                    <td>@item.Name</td>
+                                                    <td>@item.Description</td>
+                                                    
+                                                        @if (@Model.FirstOrDefault(c => c.Id == @item.ParentID) != null) {
+                                                            <td>@Model.FirstOrDefault(c => c.Id == @item.ParentID).Name</td>
+                                                        }else{
+                                                            <td>Root</td>
+                                                        }
+                                                    
+                                                    <td>
+                                                        @* @{ *@
+                                                        @*     int count = 0; *@
+                                                        @* } *@
+                                                        @* @foreach (var product in ViewBag.Products) *@
+                                                        @* { *@
+                                                        @*     @if (product.CategoryId == item.Id) *@
+                                                        @*     { *@
+                                                        @*         count++; *@
+                                                        @*     } *@
+                                                        @* } *@
+                                                        @* @count *@
+                                                    </td>
+                                                    <td>
+                                                        <a asp-action="Edit" asp-route-id="@item.Id" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
+                                                        <a asp-action="Delete" asp-route-id="@item.Id"><i class="las la-trash-alt text-secondary font-16"></i></a>
+                                                    </td>
+
+                                                </tr>
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div><!--end card-body-->
+                    </div><!--end card-->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+
+        </div><!-- container -->
+        <!--Start Rightbar-->
+        <!--Start Rightbar/offcanvas-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="Appearance" aria-labelledby="AppearanceLabel">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="m-0 font-14" id="AppearanceLabel">Appearance</h5>
+                <button type="button" class="btn-close text-reset p-0 m-0 align-self-center" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h6>Account Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch1">
+                        <label class="form-check-label" for="settings-switch1">Auto updates</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch2" checked>
+                        <label class="form-check-label" for="settings-switch2">Location Permission</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch3">
+                        <label class="form-check-label" for="settings-switch3">Show offline Contacts</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+                <h6>General Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch4">
+                        <label class="form-check-label" for="settings-switch4">Show me Online</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch5" checked>
+                        <label class="form-check-label" for="settings-switch5">Status visible to all</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch6">
+                        <label class="form-check-label" for="settings-switch6">Notifications Popup</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+            </div><!--end offcanvas-body-->
+        </div>
+        <!--end Rightbar/offcanvas-->
+        <!--end Rightbar-->
+
+    </div>
+    <!-- end page content -->
+</div>
