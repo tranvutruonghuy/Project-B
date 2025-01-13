@@ -22,30 +22,31 @@ namespace Project_B.Controllers
         // GET: Category
         public async Task<IActionResult> Index()
         {
-            return View(await _context.CategoryModel.ToListAsync());
+            return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Category/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //// GET: Category/Details/5
+        //public async Task<IActionResult> Details(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var categoryModel = await _context.CategoryModel
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (categoryModel == null)
-            {
-                return NotFound();
-            }
+        //    var categoryModel = await _context.CategoryModel
+        //        .FirstOrDefaultAsync(m => m.Id == id);
+        //    if (categoryModel == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(categoryModel);
-        }
+        //    return View(categoryModel);
+        //}
 
         // GET: Category/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.Categories = await _context.Categories.ToListAsync();
             return View();
         }
 
@@ -58,10 +59,23 @@ namespace Project_B.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 _context.Add(categoryModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            if (!ModelState.IsValid)
+            {
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        // Log or inspect the error messages
+                        Console.WriteLine(error.ErrorMessage);
+                    }
+                }
+            }
+
             return View(categoryModel);
         }
 
@@ -73,11 +87,12 @@ namespace Project_B.Controllers
                 return NotFound();
             }
 
-            var categoryModel = await _context.CategoryModel.FindAsync(id);
+            var categoryModel = await _context.Categories.FindAsync(id);
             if (categoryModel == null)
             {
                 return NotFound();
             }
+            ViewBag.Categories = await _context.Categories.ToListAsync();
             return View(categoryModel);
         }
 
@@ -124,7 +139,7 @@ namespace Project_B.Controllers
                 return NotFound();
             }
 
-            var categoryModel = await _context.CategoryModel
+            var categoryModel = await _context.Categories
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (categoryModel == null)
             {
@@ -139,10 +154,10 @@ namespace Project_B.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var categoryModel = await _context.CategoryModel.FindAsync(id);
+            var categoryModel = await _context.Categories.FindAsync(id);
             if (categoryModel != null)
             {
-                _context.CategoryModel.Remove(categoryModel);
+                _context.Categories.Remove(categoryModel);
             }
 
             await _context.SaveChangesAsync();
@@ -151,7 +166,7 @@ namespace Project_B.Controllers
 
         private bool CategoryModelExists(int id)
         {
-            return _context.CategoryModel.Any(e => e.Id == id);
+            return _context.Categories.Any(e => e.Id == id);
         }
     }
 }

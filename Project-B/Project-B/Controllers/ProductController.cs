@@ -22,7 +22,7 @@ namespace Project_B.Controllers
         // GET: Product
         public async Task<IActionResult> Index()
         {
-            var dataContext = _context.ProductModel.Include(p => p.Category);
+            var dataContext = _context.Products.Include(p => p.Category);
             return View(await dataContext.ToListAsync());
         }
 
@@ -34,7 +34,7 @@ namespace Project_B.Controllers
                 return NotFound();
             }
 
-            var productModel = await _context.ProductModel
+            var productModel = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (productModel == null)
@@ -48,7 +48,7 @@ namespace Project_B.Controllers
         // GET: Product/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace Project_B.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
             return View(productModel);
         }
 
@@ -77,12 +77,12 @@ namespace Project_B.Controllers
                 return NotFound();
             }
 
-            var productModel = await _context.ProductModel.FindAsync(id);
+            var productModel = await _context.Products.FindAsync(id);
             if (productModel == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
             return View(productModel);
         }
 
@@ -118,7 +118,7 @@ namespace Project_B.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
             return View(productModel);
         }
 
@@ -130,7 +130,7 @@ namespace Project_B.Controllers
                 return NotFound();
             }
 
-            var productModel = await _context.ProductModel
+            var productModel = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (productModel == null)
@@ -146,10 +146,10 @@ namespace Project_B.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var productModel = await _context.ProductModel.FindAsync(id);
+            var productModel = await _context.Products.FindAsync(id);
             if (productModel != null)
             {
-                _context.ProductModel.Remove(productModel);
+                _context.Products.Remove(productModel);
             }
 
             await _context.SaveChangesAsync();
@@ -158,7 +158,7 @@ namespace Project_B.Controllers
 
         private bool ProductModelExists(int id)
         {
-            return _context.ProductModel.Any(e => e.Id == id);
+            return _context.Products.Any(e => e.Id == id);
         }
     }
 }
