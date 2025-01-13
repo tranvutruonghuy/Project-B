@@ -530,3 +530,4 @@ D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\refint\Project-B.
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\Project-B.pdb
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\Project-B.genruntimeconfig.cache
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\ref\Project-B.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css

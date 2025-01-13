@@ -1,0 +1,130 @@
+﻿
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-wrapper">
+
+    <!-- Page Content-->
+    <div class="page-content-tab">
+
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box">
+
+
+                        <h4 class="page-title">Product List</h4>
+                    </div><!--end page-title-box-->
+                </div><!--end col-->
+            </div>
+            <!-- end page title end breadcrumb -->
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="col-12">
+                                <a class="btn btn-outline-primary btn-sm px-4" asp-action="AddProduct" asp-controller="Admin">+ Add New Product</a>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="product-list-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Category</th>
+                                            <th>In stock</th>
+                                            <th>Price (vnd)</th>
+                                            <th>Unit</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!--do du lieu-->
+                                        @foreach (var item in ViewBag.ProductList)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <img src="~/uploadImages/@item.Image" alt="" height="40">
+                                                    <p class="d-inline-block align-middle mb-0">
+                                                        <a href="#" class="d-inline-block align-middle mb-0 product-name fw-semibold">@item.Name</a>
+                                                    </p>
+                                                </td>
+                                                @foreach (var category in ViewBag.CategoryList) { 
+                                                    if(category.Id == item.CategoryId){
+                                                        <td>@category.Name</td>
+                                                        break;
+                                                    }    
+                                                }
+                                                <td>@item.InStock</td>
+                                                <td>@item.Price.ToString("#,##0")</td>
+                                                <td><span class="badge badge-soft-purple">@item.Unit</span></td>
+
+                                                <td>
+                                                    <a onclick="editItem(@item.Id)" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
+                                                    <a asp-action="DeleteProduct" asp-controller="Admin" asp-route-id="@item.Id"><i class="las la-trash-alt text-secondary font-16"></i></a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--end row-->
+                        </div><!--end card-body-->
+                    </div><!--end card-->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+
+        </div><!-- container -->
+        <!--Start Rightbar-->
+        <!--Start Rightbar/offcanvas-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="Appearance" aria-labelledby="AppearanceLabel">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="m-0 font-14" id="AppearanceLabel">Appearance</h5>
+                <button type="button" class="btn-close text-reset p-0 m-0 align-self-center" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h6>Account Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch1">
+                        <label class="form-check-label" for="settings-switch1">Auto updates</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch2" checked>
+                        <label class="form-check-label" for="settings-switch2">Location Permission</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch3">
+                        <label class="form-check-label" for="settings-switch3">Show offline Contacts</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+                <h6>General Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch4">
+                        <label class="form-check-label" for="settings-switch4">Show me Online</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch5" checked>
+                        <label class="form-check-label" for="settings-switch5">Status visible to all</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch6">
+                        <label class="form-check-label" for="settings-switch6">Notifications Popup</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+            </div><!--end offcanvas-body-->
+        </div>
+        <!--end Rightbar/offcanvas-->
+        <!--end Rightbar-->
+
+    </div>
+    <!-- end page content -->
+</div>
+

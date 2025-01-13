@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from mannatthemes.com/unikit/default/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Oct 2024 02:48:13 GMT -->
+<head>
+
+
+    <meta charset="utf-8" />
+    <title>Health-care Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/utils_client/img/favicon.png" type="image/x-icon" />
+
+
+
+    <!-- App css -->
+    <link href="~/utils_client/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="~/utils_client/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/utils_admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/utils_admin/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/utils_admin/css/app.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/lib/ckeditor_4.22.1_full/ckeditor/ckeditor.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+</head>
+
+<body id="body" class="dark-sidebar">
+    <!-- Modal -->
+    <div class="modal fade" id="deleteProductModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to delete this product?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="confirmDeleteProduct">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="deleteCategoryModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to delete this category?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="confirmDeleteCategory">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- leftbar-tab-menu -->
+    <div class="left-sidebar">
+        <!-- LOGO -->
+        <div class="brand">
+            <a href="#" class="logo">
+                <span>
+                    <img src="~/utils_admin/img/logo-sm.png" alt="logo-small" class="logo-sm">
+                </span>
+                <span>
+                    <img src="~/utils_admin/img/logo.png" alt="logo-large" class="logo-lg logo-light">
+                    <img src="~/utils_admin/img/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                </span>
+            </a>
+        </div>
+
+
+        <!-- Tab panes -->
+        <!--end logo-->
+        <div class="menu-content h-100" data-simplebar>
+            <div class="menu-body navbar-vertical">
+                <div class="collapse navbar-collapse tab-content" id="sidebarCollapse">
+                    <!-- Navigation -->
+                    <ul class="navbar-nav tab-pane active" id="Main" role="tabpanel">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="DashBoard" asp-controller="Admin">
+                                <i class="ti ti-stack menu-icon"></i>
+                                <span>Dashboard</span>
+                            </a>
+
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+
+                            <a class="nav-link" asp-action="ProductList" asp-controller="Admin">
+                                <i class="fas fa-clipboard-list menu-icon"></i><span>Product List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" asp-action="CategoryList" asp-controller="Admin">
+                                <i class="fas fa-clipboard-list menu-icon"></i><span>Category List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" asp-action="OrderList" asp-controller="Admin">
+                                <i class="fas fa-clipboard-list menu-icon"></i><span>Order List</span>
+                            </a>
+                        </li>
+                    </ul><!--end nav-->
+                </div><!--end sidebarAnalytics-->
+
+
+
+
+            </div><!--end sidebarCollapse-->
+        </div>
+    </div>
+    </div>
+    <!-- end left-sidenav-->
+    <!-- end leftbar-menu-->
+    <!-- Top Bar Start -->
+    <!-- Top Bar Start -->
+    <div class="topbar">
+        <!-- Navbar -->
+        <nav class="navbar-custom" id="navbar-custom">
+            <ul class="list-unstyled topbar-nav float-end mb-0">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="false" aria-expanded="false">
+                        <img src="~/utils_admin/img/flags/us_flag.jpg" alt="" class="thumb-xxs rounded">
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><img src="~/utils_admin/img/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
+                    </div>
+                </li><!--end topbar-language-->
+
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="false" aria-expanded="false">
+                        <i class="ti ti-mail"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end dropdown-lg pt-0">
+
+                        <h6 class="dropdown-item-text font-15 m-0 py-3 border-bottom d-flex justify-content-between align-items-center">
+                            Emails <span class="badge bg-soft-primary badge-pill">3</span>
+                        </h6>
+
+                        <!-- All-->
+
+                    </div>
+                </li>
+
+
+
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="false" aria-expanded="false">
+                        <div class="d-flex align-items-center">
+                            <img src="~/utils_admin/img/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
+                            <div>
+                                <small class="d-none d-md-block font-11">Admin</small>
+                                <span class="d-none d-md-block fw-semibold font-12">
+                                    Maria Gibson <i class="mdi mdi-chevron-down"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" asp-action="Index" asp-controller="Home"><i class="fa fas fa-home align-text-bottom"></i> Home</a>
+                        <a class="dropdown-item" asp-action="AccountDetails" asp-controller="Admin"><i class="ti ti-user font-16 me-1 align-text-bottom"></i> Profile</a>
+
+                        <div class="dropdown-divider mb-0"></div>
+                        <a class="dropdown-item" asp-action="Logout" asp-controller="Admin"><i class="ti ti-power font-16 me-1 align-text-bottom"></i> Logout</a>
+                    </div>
+                </li><!--end topbar-profile-->
+                <li class="notification-list">
+                    <a class="nav-link arrow-none nav-icon offcanvas-btn" href="#" data-bs-toggle="offcanvas" data-bs-target="#Appearance" role="button" aria-controls="Rightbar">
+                        <i class="ti ti-settings ti-spin"></i>
+                    </a>
+                </li>
+            </ul><!--end topbar-nav-->
+
+            <ul class="list-unstyled topbar-nav mb-0">
+                <li>
+                    <button class="nav-link button-menu-mobile nav-icon" id="togglemenu">
+                        <i class="ti ti-menu-2"></i>
+                    </button>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- end navbar-->
+    </div>
+    <!-- Top Bar End -->
+    <!-- Top Bar End -->
+    @RenderBody()
+    @RenderSection("Scripts", required:false)
+    <!-- end page-wrapper -->
+    <!-- Javascript  -->
+    @* <script src="~/utils_admin/plugins/apexcharts/apexcharts.min.js"></script> *@
+    <script src="~/utils_admin/pages/ecommerce-index.init.js"></script>
+    <script src="~/utils_admin/pages/analytics-index.init.js"></script>
+    <!-- App js -->
+    <script src="~/utils_admin/plugins/tobii/tobii.min.js"></script>
+    <script src="~/utils_admin/js/jquery-3.6.3.min.js"></script>
+    <script src="~/utils_admin/js/app.js"></script>
+    <script src="~/utils_admin/vendor/trumbowyg/trumbowyg.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+     <script src="~/utils_admin/js/myscript.js"></script> 
+
+
+    <script>
+        const tobii = new Tobii()
+    </script>
+
+</body>
+<!--end body-->
+<!-- Mirrored from mannatthemes.com/unikit/default/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Oct 2024 02:48:40 GMT -->
+</html>

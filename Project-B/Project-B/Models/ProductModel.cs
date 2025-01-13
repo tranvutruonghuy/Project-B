@@ -9,7 +9,7 @@ namespace Project_B.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Tên sản phẩm là bắt buộc.")]
         [StringLength(150)]
         public string Name { get; set; }
 
@@ -32,8 +32,8 @@ namespace Project_B.Models
         public string Unit { get; set; }
 
         [StringLength(255)]
-        public string Image { get; set; }
+        public string? Image { get; set; }
 
-        public virtual CategoryModel Category { get; set; }
+        public virtual CategoryModel? Category { get; set; }
     }
 }
