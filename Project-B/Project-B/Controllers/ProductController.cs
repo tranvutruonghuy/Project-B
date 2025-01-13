@@ -44,8 +44,10 @@ namespace Project_B.Controllers
             {
                 return NotFound();
             }
-
-            return View(productModel);
+            ViewBag.Product = productModel;
+            var category = await _context.Categories.FindAsync(productModel.CategoryId);
+            ViewBag.CategoryName = category?.Name;
+            return View();
         }
 
         // GET: Product/Create
@@ -90,7 +92,7 @@ namespace Project_B.Controllers
                 newProduct.Unit = productModel.Unit;
                 _context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(ProductList));
             }
             if (!ModelState.IsValid)
             {
@@ -126,32 +128,53 @@ namespace Project_B.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel, IFormFile Image)
         {
             if (id != productModel.Id)
             {
                 return NotFound();
             }
-
+            ModelState.Remove("Image");
             if (ModelState.IsValid)
             {
-                try
+                //coppy lai duong dan cua img
+                string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
+                String fileName = "";
+                if (Image != null)
                 {
-                    _context.Update(productModel);
-                    await _context.SaveChangesAsync();
+                    String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                    fileName = productModel.Name + "_" + currentDate + "_" + Image.FileName;
+                    String filePath = Path.Combine(uploadFolder, fileName);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                    {
+                        Image.CopyTo(fileStream);
+                    }
+
                 }
-                catch (DbUpdateConcurrencyException)
+                var newProduct = await _context.Products.FindAsync(id);
+                newProduct.Name = productModel.Name;
+                newProduct.Description = productModel.Description;
+                newProduct.CategoryId = productModel.CategoryId;
+                newProduct.ShortDescription = productModel.ShortDescription;
+                newProduct.Price = productModel.Price;
+                newProduct.InStock = productModel.InStock;
+                if(Image != null)
                 {
-                    if (!ProductModelExists(productModel.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    newProduct.Image = fileName;
                 }
-                return RedirectToAction(nameof(Index));
+            
+                newProduct.Unit = productModel.Unit;
+                //_context.Add(newProduct);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(ProductList));
+            }
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors);
+                foreach (var error in errors)
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
             return View(productModel);
@@ -188,7 +211,19 @@ namespace Project_B.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(ProductList));
+        }
+
+        // POST: Product/ProductList
+        public IActionResult ProductList()
+        {
+            var productList = _context.Products.ToList();
+            var categoryList = _context.Categories.ToList();
+
+            ViewBag.ProductList = productList;
+            ViewBag.CategoryList = categoryList;
+
+            return View();
         }
 
         private bool ProductModelExists(int id)

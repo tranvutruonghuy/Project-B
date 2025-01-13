@@ -6,7 +6,7 @@
 
 <div class="page-wrapper">
     <div class="page-content-tab">
-        <form enctype="multipart/form-data" id="add-product-form" asp-action="CreateProduct">
+        <form enctype="multipart/form-data" id="add-product-form" asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12">
@@ -33,7 +33,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label asp-for="ShortDescription" class="form-label"></label>
-                                            <textarea class="shortDes-product" rows="2" asp-for="ShortDescription"></textarea>
+                                            <textarea class="form-control" asp-for="ShortDescription"></textarea>
                                             <span asp-validation-for="ShortDescription" class="text-danger"></span>
                                         </div>
                                         <div class="mb-3">
@@ -101,7 +101,7 @@
                             <div class="col-12">
                                 <div class="mt-4 d-flex justify-content-end gap-2 flex-column flex-sm-row text-end">
                                     <button type="button" class="btn btn-light-secondary">Discard</button>
-                                    <button class="btn btn-primary" type="submit" value="CreateProduct" id="submit-btn">Add Product</button>
+                                    <button class="btn btn-primary" type="submit" value="Create" id="submit-btn">Add Product</button>
                                 </div>
                             </div>
                         </div>
