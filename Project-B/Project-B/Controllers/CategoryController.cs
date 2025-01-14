@@ -18,7 +18,7 @@ namespace Project_B.Controllers
         {
             _context = context;
         }
-
+        [Route("Admin/Category")]
         // GET: Category
         public async Task<IActionResult> Index()
         {
