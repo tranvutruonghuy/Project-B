@@ -471,7 +471,8 @@
 <div class="ltn__product-tab-area ltn__product-gutter pt-115 pb-70">
     <div class="container">
         <div class="row">
-            <vc:category-for-product></vc:category-for-product>
+            @await Component.InvokeAsync("CategorySideBar");
+            
         </div>
     </div>
 </div>

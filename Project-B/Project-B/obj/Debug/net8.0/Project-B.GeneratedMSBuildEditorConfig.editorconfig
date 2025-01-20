@@ -128,8 +128,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxTZXJ2aWNlRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/DoAnB/Project-B/Project-B/Project-B/Views/Shared/Components/CategoryForProduct/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlGb3JQcm9kdWN0XERlZmF1bHQuY3NodG1s
+[D:/GitHub/DoAnB/Project-B/Project-B/Project-B/Views/Shared/Components/CategorySideBar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlTaWRlQmFyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/DoAnB/Project-B/Project-B/Project-B/Views/Shared/Error.cshtml]
