@@ -44,6 +44,7 @@ namespace Project_B.Controllers
         //}
 
         // GET: Category/Create
+        [Route("Admin/Category/Create")]
         public async Task<IActionResult> Create()
         {
             ViewBag.Categories = await _context.Categories.ToListAsync();

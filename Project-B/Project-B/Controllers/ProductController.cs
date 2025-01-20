@@ -23,6 +23,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Product
+        [Route("Product")]
         public async Task<IActionResult> Index()
         {
             var dataContext = _context.Products.Include(p => p.Category);
@@ -51,6 +52,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Product/Create
+        [Route("Admin/Product/Create")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -214,7 +216,8 @@ namespace Project_B.Controllers
             return RedirectToAction(nameof(ProductList));
         }
 
-        // POST: Product/ProductList
+        // Get: Product/ProductList
+        [Route("Admin/Product")]
         public IActionResult ProductList()
         {
             var productList = _context.Products.ToList();
