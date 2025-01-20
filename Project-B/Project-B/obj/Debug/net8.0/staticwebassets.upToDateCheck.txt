@@ -530,6 +530,7 @@ wwwroot\uploadImages\Product1_2025-01-13_22-09-35_740_IMG_0238_fc19904162.png
 wwwroot\uploadImages\Product1_2025-01-13_22-10-42_157_IMG_0238_fc19904162.png
 wwwroot\uploadImages\Product1_2025-01-13_22-17-03_218_TUK_05777_2ebfbc3e43.png
 wwwroot\uploadImages\Product1_2025-01-13_22-26-25_844_TUK_05777_2ebfbc3e43.png
+wwwroot\uploadImages\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png
 wwwroot\uploadImages\Product1a_2025-01-13_21-54-18_216_IMG_0238_fc19904162.png
 wwwroot\utils_admin\css\app.min.css
 wwwroot\utils_admin\css\bootstrap.min.css

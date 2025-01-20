@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OPHN695PrTGN3egSvlvkmpoJ0DrebnsrK1pAWygFj7M=",
+  "Hash": "k8aEqSHVag+h+jt/8DeVqtsRWYqWj9MaYQunymG54x4=",
   "Source": "Project-B",
   "BasePath": "_content/Project-B",
   "Mode": "Default",
@@ -11229,6 +11229,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploadImages\\Product1_2025-01-13_22-26-25_844_TUK_05777_2ebfbc3e43.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png",
+      "SourceId": "Project-B",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\",
+      "BasePath": "_content/Project-B",
+      "RelativePath": "uploadImages/Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rsgclmt0i",
+      "Integrity": "b2qA48e7Zhzenz5nXMC8DAFrRW8zXDKkv4T/bva+Nio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploadImages\\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png"
     },
     {
       "Identity": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\Product1a_2025-01-13_21-54-18_216_IMG_0238_fc19904162.png",
@@ -63785,6 +63806,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 13 Jan 2025 15:26:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b2qA48e7Zhzenz5nXMC8DAFrRW8zXDKkv4T/bva+Nio="
+        }
+      ]
+    },
+    {
+      "Route": "uploadImages/Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.5rsgclmt0i.png",
+      "AssetFile": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b2qA48e7Zhzenz5nXMC8DAFrRW8zXDKkv4T/bva+Nio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 05:03:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rsgclmt0i"
+        },
+        {
+          "Name": "label",
+          "Value": "uploadImages/Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b2qA48e7Zhzenz5nXMC8DAFrRW8zXDKkv4T/bva+Nio="
+        }
+      ]
+    },
+    {
+      "Route": "uploadImages/Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png",
+      "AssetFile": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b2qA48e7Zhzenz5nXMC8DAFrRW8zXDKkv4T/bva+Nio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 05:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
