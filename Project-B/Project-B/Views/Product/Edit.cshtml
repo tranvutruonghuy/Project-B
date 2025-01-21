@@ -100,8 +100,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="mt-4 d-flex justify-content-end gap-2 flex-column flex-sm-row text-end">
-                                    <button type="button" class="btn btn-light-secondary">Discard</button>
-                                    <button class="btn btn-primary" type="submit" value="Edit" id="submit-btn">Edit Product</button>
+                                    <a type="button"  asp-action="ProductList" class="btn btn-light-secondary">Discard</a>
+                                    <button class="btn btn-primary" type="submit" asp-route-id="@Model.Id" value="Edit" id="submit-btn">Edit Product</button>
                                 </div>
                             </div>
                         </div>

@@ -56,6 +56,7 @@ namespace Project_B.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Admin/Category/Create")]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,ParentID")] CategoryModel categoryModel)
         {
             if (ModelState.IsValid)
@@ -79,7 +80,7 @@ namespace Project_B.Controllers
 
             return View(categoryModel);
         }
-
+        [Route("Admin/Category/Edit")]
         // GET: Category/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -102,6 +103,7 @@ namespace Project_B.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Admin/Category/Edit")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,ParentID")] CategoryModel categoryModel)
         {
             if (id != categoryModel.Id)
@@ -133,6 +135,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Category/Delete/5
+        [Route("Admin/Category/Delete")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -152,7 +155,9 @@ namespace Project_B.Controllers
 
         // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
+
         [ValidateAntiForgeryToken]
+        [Route("Admin/Category/Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var categoryModel = await _context.Categories.FindAsync(id);

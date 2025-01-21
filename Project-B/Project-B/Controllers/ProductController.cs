@@ -23,7 +23,6 @@ namespace Project_B.Controllers
         }
 
         // GET: Product
-        [Route("Product")]
         public async Task<IActionResult> Index()
         {
             var dataContext = _context.Products.Include(p => p.Category);
@@ -31,6 +30,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Product/Details/5
+        [Route("Admin/ProductDetails")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -64,6 +64,7 @@ namespace Project_B.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Admin/Product/Create")]
         public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile Image)
         {
 
@@ -109,6 +110,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Product/Edit/5
+        [Route("Admin/Product/Edit")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -130,6 +132,7 @@ namespace Project_B.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Admin/Product/Edit")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel, IFormFile Image)
         {
             if (id != productModel.Id)
@@ -183,6 +186,7 @@ namespace Project_B.Controllers
         }
 
         // GET: Product/Delete/5
+        [Route("Admin/Product/Delete")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -204,6 +208,7 @@ namespace Project_B.Controllers
         // POST: Product/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Route("Admin/Product/Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var productModel = await _context.Products.FindAsync(id);
