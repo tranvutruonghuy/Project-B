@@ -27,7 +27,7 @@ namespace Project_B.Models
         public AddressType AddressType { get; set; }
         public bool Default { get; set; }
         // Navigation property
-        public virtual ClientModel Client { get; set; }
+        public virtual AppUserModel Client { get; set; }
     }
     public enum AddressType { office, home }
 }

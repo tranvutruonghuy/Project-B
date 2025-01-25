@@ -27,6 +27,7 @@
     <link href="~/utils_admin/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="~/utils_admin/css/app.min.css" rel="stylesheet" type="text/css" />
     <link href="//cdn.datatables.net/2.2.1/css/dataTables.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/lib//ckeditor_4.22.1_full/ckeditor/ckeditor.js"></script>
 </head>
 
 <body id="body" class="dark-sidebar">
@@ -59,7 +60,7 @@
                             <a class="nav-link" asp-controller="AdminPages" asp-action="Dashboard"><i class="ti ti-stack menu-icon"></i><span>Dashboard</span></a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="AdminPages" asp-action="ProductList"><i class="fas fa-clipboard-list menu-icon"></i><span>Product List</span></a>
+                            <a class="nav-link" asp-controller="Product" asp-action="ProductList"><i class="fas fa-clipboard-list menu-icon"></i><span>Product List</span></a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Category" asp-action="Index"><i class="fas fa-clipboard-list menu-icon"></i><span>Category List</span></a>
@@ -283,7 +284,7 @@
                         <a class="dropdown-item" href="pages-profile.html"><i class="ti ti-user font-16 me-1 align-text-bottom"></i> Profile</a>
                         <a class="dropdown-item" href="crypto-settings.html"><i class="ti ti-settings font-16 me-1 align-text-bottom"></i> Settings</a>
                         <div class="dropdown-divider mb-0"></div>
-                        <a class="dropdown-item" href="auth-login.html"><i class="ti ti-power font-16 me-1 align-text-bottom"></i> Logout</a>
+                        <a class="dropdown-item" asp-action="LogoutAdmin" asp-controller="Account"><i class="ti ti-power font-16 me-1 align-text-bottom"></i> Logout</a>
                     </div>
                 </li><!--end topbar-profile-->
                 <li class="notification-list">
@@ -325,6 +326,7 @@
     <script src="~/utils_admin/js/app.js"></script>
     <script src="~/utils_admin/js/myScript.js"></script>
     <script src="~/lib/ckeditor_4.22.1_full/ckeditor/ckeditor.js"></script>
+
 </body>
 <!--end body-->
 <!-- Mirrored from mannatthemes.com/unikit/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2024 12:33:33 GMT -->
