@@ -3,116 +3,202 @@
     ViewData["Title"] = "Admin/Register";
     Layout = "";
 }
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable" data-theme="default" data-theme-colors="default">
 
 
-<!-- Mirrored from mannatthemes.com/unikit/default/auth-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Oct 2024 02:49:36 GMT -->
+<!-- Mirrored from themesbrand.com/velzon/html/master/auth-signup-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jan 2025 06:11:03 GMT -->
 <head>
 
-
     <meta charset="utf-8" />
-    <title>Unikit - Admin & Dashboard Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sign Up | Velzon - Admin & Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="" name="author" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="~/utils_admin/img/favicon.ico">
+    <link rel="shortcut icon" href="~/utils_admin/assets/images/favicon.ico">
 
+    <!-- Layout config Js -->
+    <script src="~/utils_admin/assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="~/utils_admin/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/utils_admin/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/utils_admin/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <!-- custom Css-->
+    <link href="~/utils_admin/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
 
-
-    <!-- App css -->
-    <link href="~/utils_admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/utils_admin/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/utils_admin/css/app.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/utils_admin/MyCss.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="body" class="auth-page" style="background-image: url('/utils_admin/img/p-1.png'); background-size: cover; background-position: center center;">
-    <!-- Log In page -->
-    <div class="container-md">
-        <div class="row vh-100 d-flex justify-content-center">
-            <div class="col-12 align-self-center">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-4 mx-auto">
-                            <div class="card">
-                                <div class="card-body p-0 auth-header-box">
-                                    <div class="text-center p-3">
-                                        <a href="index-2.html" class="logo logo-admin">
-                                            <img src="~/utils_admin/img/logo-sm.png" height="50" alt="logo" class="auth-logo">
-                                        </a>
-                                        <h4 class="mt-3 mb-1 fw-semibold text-white font-18">Sign up</h4>
+<body>
 
+    <!-- auth-page wrapper -->
+    <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+        <div class="bg-overlay"></div>
+        <!-- auth-page content -->
+        <div class="auth-page-content overflow-hidden pt-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card overflow-hidden m-0 card-bg-fill galaxy-border-none">
+                            <div class="row justify-content-center g-0">
+                                <div class="col-lg-6">
+                                    <div class="p-lg-5 p-4 auth-one-bg h-100">
+                                        <div class="bg-overlay"></div>
+                                        <div class="position-relative h-100 d-flex flex-column">
+                                            <div class="mb-4">
+                                                <a href="index.html" class="d-block">
+                                                    <img src="~/utils_admin/assets/images/logo-light.png" alt="" height="18">
+                                                </a>
+                                            </div>
+                                            <div class="mt-auto">
+                                                <div class="mb-3">
+                                                    <i class="ri-double-quotes-l display-4 text-success"></i>
+                                                </div>
+
+                                                <div id="qoutescarouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-indicators">
+                                                        <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                        <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                        <button type="button" data-bs-target="#qoutescarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    </div>
+                                                    <div class="carousel-inner text-center text-white-50 pb-5">
+                                                        <div class="carousel-item active">
+                                                            <p class="fs-15 fst-italic">" Great! Clean code, clean design, easy for customization. Thanks very much! "</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <p class="fs-15 fst-italic">" The theme is really great with an amazing customer support."</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <p class="fs-15 fst-italic">" Great! Clean code, clean design, easy for customization. Thanks very much! "</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end carousel -->
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="card-body pt-0">
-                                    <form class="my-4" asp-controller="Account" asp-action="CreateAdmin">
-                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="mobileNo">Name</label>
-                                            <input type="text" class="form-control" id="mobileNo" name="Name" placeholder="Enter Name" asp-for="Name">
-                                            <span asp-validation-for="Name" class="text-danger"></span>
-                                        </div><!--end form-group-->
 
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="username">Username</label>
-                                            <input type="text" class="form-control" id="username" name="Username" placeholder="Enter username" asp-for="Username">
-                                            <span asp-validation-for="Username" class="text-danger"></span>
-                                        </div><!--end form-group-->
+                                <div class="col-lg-6">
+                                    <div class="p-lg-5 p-4">
+                                        <div>
+                                            <h5 class="text-primary">Register Account</h5>
+                                            <p class="text-muted">Get your Free Velzon account now.</p>
+                                        </div>
 
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="useremail">Email</label>
-                                            <input type="email" class="form-control" id="useremail" name="Email" placeholder="Enter email" asp-for="Email">
-                                            <span asp-validation-for="Email" class="text-danger"></span>
-                                        </div><!--end form-group-->
+                                        <div class="mt-4">
+                                            <form class="needs-validation" novalidate asp-action="CreateAdmin" asp-controller="Account">
 
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="userpassword">Password</label>
-                                            <input type="password" class="form-control" name="Password" id="userpassword" placeholder="Enter password" asp-for="Password">
-                                            <span asp-validation-for="Password" class="text-danger"></span>
-                                        </div><!--end form-group-->
-
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="Confirmpassword">Confirm Password</label>
-                                            <input type="password" class="form-control" name="password" id="Confirmpassword" placeholder="Enter Confirm password">
-                                            @* <span asp-validation-for="ConfirmPassword" class="text-danger"></span> *@
-                                        </div><!--end form-group-->
-
-                                        <div class="form-group mb-2">
-                                            <label class="form-label" for="mobileNo">Phone Number</label>
-                                            <input type="text" class="form-control" id="mobileNo" name="Phone" placeholder="Enter Mobile Number" asp-for="Phone">
-                                            <span asp-validation-for="Phone" class="text-danger"></span>
-                                        </div><!--end form-group-->
-
-                                        <div class="form-group mb-0 row">
-                                            <div class="col-12">
-                                                <div class="d-grid mt-3">
-                                                    <button class="btn btn-primary" type="submit">Register  <i class="fas fa-sign-in-alt ms-1"></i></button>
+                                                <div class="mb-3">
+                                                    <label for="useremail" class="form-label">Email <span class="text-danger">*</span></label>
+                                                    <input type="email" class="form-control" id="useremail" placeholder="Enter email address" required asp-for="Email">
+                                                    <div class="invalid-feedback">
+                                                        Please enter email
+                                                    </div>
                                                 </div>
-                                            </div><!--end col-->
-                                        </div> <!--end form-group-->
-                                    </form><!--end form-->
+                                                <div class="mb-3">
+                                                    <label for="userphone" class="form-label">Phone number <span class="text-danger">*</span></label>
+                                                    <input type="tel" class="form-control" id="userphone" placeholder="Enter phone number" required asp-for="Phone">
+                                                    <div class="invalid-feedback">
+                                                        Please enter phone number
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="username" class="form-label">Full name <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="userName" placeholder="Enter full name" required asp-for="Name">
+                                                    <div class="invalid-feedback">
+                                                        Please enter full name
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="username" class="form-label">Username <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="username" placeholder="Enter username" required asp-for="Username">
+                                                    <div class="invalid-feedback">
+                                                        Please enter username
+                                                    </div>
+                                                </div>
 
-                                    <div class="m-3 text-center text-muted">
-                                        <p class="mb-0">Already have an account ? <a asp-action="LoginAdmin" asp-controller="Account" class="text-primary ms-2">Log in</a></p>
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="password-input">Password</label>
+                                                    <div class="position-relative auth-pass-inputgroup">
+                                                        <input type="password" asp-for="Password" class="form-control pe-5 password-input" onpaste="return false" placeholder="Enter password" id="password-input" aria-describedby="passwordInput" pattern="(?=.*[a-z]).{8,}" required>
+                                                        <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon material-shadow-none" type="button" id="password-addon-1"><i class="ri-eye-fill align-middle"></i></button>
+                                                        <div class="invalid-feedback">
+                                                            Please enter password
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-4">
+                                                    <p class="mb-0 fs-12 text-muted fst-italic">By registering you agree to the Velzon <a href="#" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a></p>
+                                                </div>
+
+                                                <div id="password-contain" class="p-3 bg-light mb-2 rounded">
+                                                    <h5 class="fs-13">Password must contain:</h5>
+                                                    <p id="pass-length" class="invalid fs-12 mb-2">Minimum <b>8 characters</b></p>
+                                                    <p id="pass-lower" class="invalid fs-12 mb-2">At <b>lowercase</b> letter (a-z)</p>
+                                                </div>
+
+                                                <div class="mt-4">
+                                                    <button class="btn btn-success w-100" type="submit">Sign Up</button>
+                                                </div>
+
+                                            </form>
+
+                                        </div>
+
+                                        <div class="mt-5 text-center">
+                                            <p class="mb-0">Already have an account ? <a href="auth-signin-cover.html" class="fw-semibold text-primary text-decoration-underline"> Signin</a> </p>
+                                        </div>
                                     </div>
-                                </div><!--end card-body-->
-                            </div><!--end card-->
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </div><!--end card-body-->
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-    <!-- App js -->
-    <script src="~/utils_admin/js/app.js"></script>
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end auth page content -->
+        <!-- footer -->
+        <footer class="footer galaxy-border-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <p class="mb-0">
+                                &copy;
+                                <script>document.write(new Date().getFullYear())</script> Velzon. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end Footer -->
+    </div>
+    <!-- end auth-page-wrapper -->
+    <!-- JAVASCRIPT -->
+    <script src="~/utils_admin/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/utils_admin/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/utils_admin/assets/libs/node-waves/waves.min.js"></script>
+    <script src="~/utils_admin/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="~/utils_admin/assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="~/utils_admin/assets/js/plugins.js"></script>
+
+    <!-- validation init -->
+    <script src="~/utils_admin/assets/js/pages/form-validation.init.js"></script>
+    <!-- password create init -->
+    <script src="~/utils_admin/assets/js/pages/passowrd-create.init.js"></script>
 </body>
 
 
-<!-- Mirrored from mannatthemes.com/unikit/default/auth-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Oct 2024 02:49:36 GMT -->
+<!-- Mirrored from themesbrand.com/velzon/html/master/auth-signup-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jan 2025 06:11:03 GMT -->
 </html>

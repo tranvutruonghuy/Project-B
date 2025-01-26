@@ -152,7 +152,10 @@ namespace Project_B.Controllers
         [Route("/admin/login")]
         public async Task<IActionResult> LoginAdmin([Bind("Username, Password")] UserModel user)
         {
-            if (!ModelState.IsValid)
+            ModelState.Remove("Email");
+            ModelState.Remove("Name");
+            ModelState.Remove("Phone");
+            if (ModelState.IsValid)
             {
                 Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user.Username, user.Password, false, false);
                 if (result.Succeeded)
@@ -180,10 +183,11 @@ namespace Project_B.Controllers
             }
             return View(user);
         }
+        [Route("/admin/logout")]
         public async Task<IActionResult> LogoutAdmin()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("LoginAdmin", "Account");
+            return View();
         }
     }
 }
