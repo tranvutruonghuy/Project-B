@@ -3,18 +3,19 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Project_B.Models
 {
-    public class ClientModel
+    public class UserModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Please input!")]
         [StringLength(50)]
         public string Username { get; set; }
         [Required]
         [StringLength(255)]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please input!")]
         [StringLength(50)]
         public string Name { get; set; }
         [Required]
@@ -27,14 +28,5 @@ namespace Project_B.Models
         public string Email { get; set; }
         [Required]
         public byte Role { get; set; }
-
-        //public void SetPassword(string password)
-        //{
-        //    this.Password = BCrypt.Net.BCrypt.HashPassword(password);
-        //}
-        //public bool VerifyPassword(string password)
-        //{
-        //    return BCrypt.Net.BCrypt.Verify(password, this.Password);
-        //}
     }
 }

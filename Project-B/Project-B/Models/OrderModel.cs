@@ -24,7 +24,7 @@ namespace Project_B.Models
         public string PaymentMethod { get; set; }
         [StringLength(20)]
         // Navigation properties
-        public virtual ClientModel Client { get; set; }
+        public virtual AppUserModel Client { get; set; }
         public virtual AddressModel Address { get; set; }
     }
 }

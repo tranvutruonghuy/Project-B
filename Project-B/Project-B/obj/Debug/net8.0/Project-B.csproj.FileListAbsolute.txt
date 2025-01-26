@@ -530,3 +530,8 @@ D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\refint\Project-B.
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\Project-B.pdb
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\Project-B.genruntimeconfig.cache
 D:\GitHub\DoAnB\Project-B\Project-B\Project-B\obj\Debug\net8.0\ref\Project-B.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\GitHub\DoAnB\Project-B\Project-B\Project-B\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

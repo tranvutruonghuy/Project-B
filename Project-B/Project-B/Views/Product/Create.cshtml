@@ -6,7 +6,7 @@
 
 <div class="page-wrapper">
     <div class="page-content-tab">
-        <form enctype="multipart/form-data" id="add-product-form" asp-action="Create">
+        <form enctype="multipart/form-data" id="add-product-form" asp-action="Create" asp-controller="Product">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12">
@@ -73,13 +73,21 @@
                                 <div class="app-divider-v dashed"></div>
                             </div>
                             <div class="app-product-section">
-                                <div class="main-title">
-                                    <h6>Product Media</h6>
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title mb-0">Multiple File Upload</h4>
+                                        </div><!-- end card header -->
+
+                                        <div class="card-body">
+                                            <p class="text-muted">FilePond is a JavaScript library that optimizes multiple images for faster uploads and offers a great, accessible, silky smooth user experience.</p>
+                                            <input type="file" class="filepond filepond-input-multiple" multiple name="filepond" data-allow-reorder="true" data-max-file-size="3MB" data-max-files="3" asp-for="Image">
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
                                 </div>
-                                <div class="preview">
-                                    <input accept="image/*" class="app-file-upload addproduct file-input" type="file" id="addProduct" multiple="multiple" data-allow-reorder="true" asp-for="Image">
-                                    <img id="img-preview" src="" />
-                                </div>
+                               
                                 <div class="app-divider-v dashed"></div>
                                 <div class="main-title">
                                     <h6>Pricing</h6>

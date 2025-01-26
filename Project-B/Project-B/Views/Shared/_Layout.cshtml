@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="~/utils_client/css/style.css" />
     <!-- Responsive css -->
     <link rel="stylesheet" href="~/utils_client/css/responsive.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
@@ -188,10 +189,18 @@
                                                 <li>
                                                     <a href="#"><i class="icon-user"></i></a>
                                                     <ul>
-                                                        <li><a href="login.html">Sign in</a></li>
-                                                        <li><a href="register.html">Register</a></li>
-                                                        <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                                        @if(User.Identity?.IsAuthenticated ?? false)
+                                                        {
+                                                            <li><a>Hi, @User.FindFirst("FullName")?.Value</a></li>
+                                                            <li><a href="account.html">My Account</a></li>
+                                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                                        } else  {
+                                                            <li><a asp-controller="Account" asp-action="Login">Sign in</a></li>
+                                                            <li><a asp-controller="Account" asp-action="Create">Register</a></li>
+                                                            <li><a href="account.html">My Account</a></li>
+                                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                                        }
+                                                        
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -469,6 +478,7 @@
 
         <div class="ltn__utilize-overlay"></div>
         @RenderBody()
+        @RenderSection("Scripts", required: false)
 
         <!-- FOOTER AREA START -->
         <footer class="ltn__footer-area">
@@ -720,6 +730,9 @@
     <script src="~/utils_client/js/plugins.js"></script>
     <!-- Main JS -->
     <script src="~/utils_client/js/main.js"></script>
+    
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 </body>
 
 <!-- Mirrored from tunatheme.com/tf/html/vicodin-preview/vicodin/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2024 12:42:29 GMT -->

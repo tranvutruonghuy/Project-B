@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -31,6 +32,7 @@ namespace Project_B.Controllers
 
         // GET: Product/Details/5
         [Route("Admin/ProductDetails")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -53,6 +55,7 @@ namespace Project_B.Controllers
 
         // GET: Product/Create
         [Route("Admin/Product/Create")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -65,25 +68,30 @@ namespace Project_B.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Create")]
-        public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile Image)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
         {
-
+            ModelState.Remove("Image");
+            ModelState.Remove("Category");
             if (ModelState.IsValid)
             {
-                //coppy lai duong dan cua img
                 string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
                 String fileName = "";
-                if (Image != null)
+                foreach (var file in Request.Form.Files)
                 {
-                    String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                    fileName = productModel.Name + "_" + currentDate + "_" + Image.FileName;
-                    String filePath = Path.Combine(uploadFolder, fileName);
-                    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                    if (file.Length > 0)
                     {
-                        Image.CopyTo(fileStream);
+                        
+                        String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                        fileName = productModel.Name + "_" + currentDate + "_" + file.FileName;
+                        String filePath = Path.Combine(uploadFolder, fileName);
+                        using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                        {
+                            file.CopyTo(fileStream);
+                        }
                     }
-
                 }
+               
                 ProductModel newProduct = new ProductModel();
                 newProduct.Name = productModel.Name;
                 newProduct.Description = productModel.Description;
@@ -95,7 +103,7 @@ namespace Project_B.Controllers
                 newProduct.Unit = productModel.Unit;
                 _context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(ProductList));
+                return RedirectToAction("ProductList", "Product");
             }
             if (!ModelState.IsValid)
             {
@@ -111,6 +119,7 @@ namespace Project_B.Controllers
 
         // GET: Product/Edit/5
         [Route("Admin/Product/Edit")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -133,6 +142,7 @@ namespace Project_B.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Edit")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel, IFormFile Image)
         {
             if (id != productModel.Id)
@@ -187,6 +197,7 @@ namespace Project_B.Controllers
 
         // GET: Product/Delete/5
         [Route("Admin/Product/Delete")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -209,6 +220,7 @@ namespace Project_B.Controllers
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Delete")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var productModel = await _context.Products.FindAsync(id);
@@ -223,6 +235,7 @@ namespace Project_B.Controllers
 
         // Get: Product/ProductList
         [Route("Admin/Product")]
+        [Authorize(Roles = "Admin")]
         public IActionResult ProductList()
         {
             var productList = _context.Products.ToList();
