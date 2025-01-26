@@ -4,10 +4,10 @@ using Project_B.Data;
 
 namespace Project_B.Components
 {
-    public class CategorySideBarViewComponent : ViewComponent
+    public class CategorySidebarViewComponent : ViewComponent
     {
         private readonly DataContext _dataContext;
-        public CategorySideBarViewComponent(DataContext dataContext)
+        public CategorySidebarViewComponent(DataContext dataContext)
         {
             _dataContext = dataContext;
         }
