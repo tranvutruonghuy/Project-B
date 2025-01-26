@@ -69,25 +69,29 @@ namespace Project_B.Controllers
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Create")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile Image)
+        public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
         {
-
+            ModelState.Remove("Image");
+            ModelState.Remove("Category");
             if (ModelState.IsValid)
             {
-                //coppy lai duong dan cua img
                 string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
                 String fileName = "";
-                if (Image != null)
+                foreach (var file in Request.Form.Files)
                 {
-                    String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                    fileName = productModel.Name + "_" + currentDate + "_" + Image.FileName;
-                    String filePath = Path.Combine(uploadFolder, fileName);
-                    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                    if (file.Length > 0)
                     {
-                        Image.CopyTo(fileStream);
+                        
+                        String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                        fileName = productModel.Name + "_" + currentDate + "_" + file.FileName;
+                        String filePath = Path.Combine(uploadFolder, fileName);
+                        using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                        {
+                            file.CopyTo(fileStream);
+                        }
                     }
-
                 }
+               
                 ProductModel newProduct = new ProductModel();
                 newProduct.Name = productModel.Name;
                 newProduct.Description = productModel.Description;
@@ -99,7 +103,7 @@ namespace Project_B.Controllers
                 newProduct.Unit = productModel.Unit;
                 _context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(ProductList));
+                return RedirectToAction("ProductList", "Product");
             }
             if (!ModelState.IsValid)
             {
