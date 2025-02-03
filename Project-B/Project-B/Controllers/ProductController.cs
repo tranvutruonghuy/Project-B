@@ -31,8 +31,6 @@ namespace Project_B.Controllers
         }
 
         // GET: Product/Details/5
-        [Route("Admin/ProductDetails")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)

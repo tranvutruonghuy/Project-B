@@ -51,7 +51,7 @@
                                                 <td>
                                                     <img src="~/uploadImages/@item.Image" alt="" height="40">
                                                     <p class="d-inline-block align-middle mb-0">
-                                                        <a href="#" class="d-inline-block align-middle mb-0 product-name fw-semibold">@item.Name</a>
+                                                        @item.Name
                                                     </p>
                                                 </td>
                                                 @foreach (var category in ViewBag.CategoryList)
@@ -64,7 +64,7 @@
                                                 }
                                                 <td>@item.InStock</td>
                                                 <td>@item.Price.ToString("#,##0")</td>
-                                                <td><span class="badge badge-soft-purple">@item.Unit</span></td>
+                                                <td>@item.Unit</td>
 
                                                 <td>
                                                     <a asp-action="Edit" asp-controller="Product" asp-route-id="@item.Id" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>

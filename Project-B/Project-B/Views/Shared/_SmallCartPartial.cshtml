@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@if (User.Identity.IsAuthenticated)
+{
+    if (ViewBag.CartItems != null && ViewBag.CartItems.Count > 0)
+    {
+        <span class="mini-cart-icon">
+            <i class="icon-shopping-cart"></i>
+            <sup>@ViewBag.CartItems.Count</sup>
+        </span>
+        <h6>
+            <span>Your Cart</span> <span class="ltn__secondary-color">@ViewBag.GrandTotal.ToString("#,##0")vnd</span>
+        </h6>
+    }
+    else
+    {
+        <span class="mini-cart-icon">
+            <i class="icon-shopping-cart"></i>
+            <sup>0</sup>
+        </span>
+        <h6>
+            <span>Your Cart</span> <span class="ltn__secondary-color">0vnd</span>
+        </h6>
+    }
+}
+else
+{
+    <span class="mini-cart-icon">
+        <i class="icon-shopping-cart"></i>
+        <sup>0</sup>
+    </span>
+    <h6>
+        <span>Your Cart</span> <span class="ltn__secondary-color">0vnd</span>
+    </h6>
+    <p>Please log in to see your cart items.</p>
+}
+

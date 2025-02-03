@@ -91,8 +91,9 @@
                                         <li>
                                             @if (@product.InStock > 0)
                                             {
-                                                <a class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal"
-                                                   onclick="addToCart(@product.Id)">
+                                                @* data - bs - toggle = "modal" data - bs - target = "#add_to_cart_modal" *@
+                                                <a id="addToCartButton" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal" onclick="addToCart()" class="theme-btn-1 btn btn-effect-1" title="Add to Cart"
+                                                   asp-action="Create" asp-controller="WishList" data-product-id="@product.Id" data-quantity="1">
                                                     <i class="fas fa-shopping-cart"></i>
                                                     <span>ADD TO CART</span>
                                                 </a>
@@ -205,6 +206,9 @@
     const number = 1200000.00;
     const formattedNumber = formatNumber(number);
 
-    document.getElementById('formattedNumber').textContent = formattedNumber;
+   
+    
+   
+
 
 </script>

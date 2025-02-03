@@ -18192,17 +18192,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iDefFOYhUm70C2ZRUst/g7HTs9zvM/0/J8AeVaxu9lM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"217150"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022iDefFOYhUm70C2ZRUst/g7HTs9zvM/0/J8AeVaxu9lM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Jan 2025 09:45:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/js/myScript.fnizcdonbu.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fnizcdonbu"},{"Name":"integrity","Value":"sha256-K2lLvxAxCXt27shuAZB54JiE7d1jQVzhC75lqfFhGjg="},{"Name":"label","Value":"_content/Project-B/utils_admin/js/myScript.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15428"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022K2lLvxAxCXt27shuAZB54JiE7d1jQVzhC75lqfFhGjg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 13 Jan 2025 15:27:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/js/myScript.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K2lLvxAxCXt27shuAZB54JiE7d1jQVzhC75lqfFhGjg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15428"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022K2lLvxAxCXt27shuAZB54JiE7d1jQVzhC75lqfFhGjg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 13 Jan 2025 15:27:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 04:33:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/js/myScript.nefa0oh3hu.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nefa0oh3hu"},{"Name":"integrity","Value":"sha256-gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I="},{"Name":"label","Value":"_content/Project-B/utils_admin/js/myScript.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 04:33:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/pages/analytics-customers.init.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\pages\analytics-customers.init.js'))</AssetFile>

@@ -6,7 +6,7 @@
 
 <div class="page-wrapper">
     <div class="page-content-tab">
-        <form enctype="multipart/form-data" id="add-product-form" asp-action="Create" asp-controller="Product">
+        <form enctype="multipart/form-data" id="add-product-form" asp-action="Create" asp-controller="Product" class="needs-validation" novalidate>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12">
@@ -17,60 +17,111 @@
                                 <div class="main-title">
                                     <h6>General Information</h6>
                                 </div>
+                                <br />
                                 <div>
                                     <div class="app-form">
-                                        <div class="mb-3">
-                                            <label asp-for="Name" class="control-label"></label>
-                                            <input asp-for="Name" class="form-control" />
-                                            <span asp-validation-for="Name" class="text-danger"></span>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="CategoryId">Category name</label>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="Name" class="form-label"></label>
                                             </div>
-                                            <select class="custom-select" id="CategoryId" asp-for="CategoryId" asp-items="ViewBag.CategoryId">
-                                            </select>
+                                            <div class="col-lg-11">
+                                                <input asp-for="Name" class="form-control" required />
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                                <span asp-validation-for="Name" class="text-danger"></span>
+                                            </div>
+                                            
                                         </div>
-                                        <div class="mb-3">
-                                            <label asp-for="ShortDescription" class="form-label"></label>
-                                            <textarea class="form-control" asp-for="ShortDescription"></textarea>
-                                            <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="CategoryId" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+                                                <select class="form-select mb-3 " id="CategoryId" aria-label="Choose category" asp-for="CategoryId" asp-items="ViewBag.CategoryId">
+                                                </select>
+                                            </div>
+                                            
                                         </div>
-                                        <div class="mb-3">
-                                            <label asp-for="Description" class="form-label"></label>
-                                            <textarea class="form-control" id="product-detail" rows="3" asp-for="Description"></textarea>
-                                            <span asp-validation-for="Description" class="text-danger"></span>
-                                            <script>
-                                                CKEDITOR.replace('product-detail');
-                                            </script>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="ShortDescription" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+                                                <textarea class="form-control" asp-for="ShortDescription" required></textarea>
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="Description" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+                                                <textarea class="form-control" id="product-detail" rows="3" asp-for="Description" required></textarea>
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="Unit" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+                                                <input asp-for="Unit" class="form-control" required />
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="InStock" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+
+                                                <input asp-for="InStock" class="form-control" required />
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-1">
+                                                <label asp-for="Price" class="form-label"></label>
+                                            </div>
+                                            <div class="col-lg-11">
+
+                                                <input asp-for="Price" required class="form-control b-r-right" id="price" aria-label="Price" aria-describedby="basic-addon1">
+                                                <div class="valid-feedback">
+                                                    This look good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please enter this field!
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="app-divider-v dashed"></div>
-                                <div class="main-title">
-                                    <h6>Inventory</h6>
-                                </div>
-                                <div>
-                                    <div class="app-form">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <label asp-for="Unit" class="form-label"></label>
-                                                    <input asp-for="Unit" class="form-control" />
-                                                    <span asp-validation-for="Unit" class="text-danger"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <label asp-for="InStock" class="form-label"></label>
-                                                    <input asp-for="InStock" class="form-control" />
-                                                    <span asp-validation-for="InStock" class="text-danger"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="app-divider-v dashed"></div>
+                                
                             </div>
                             <div class="app-product-section">
                                 <div class="col-lg-12">
@@ -88,23 +139,7 @@
                                     <!-- end card -->
                                 </div>
                                
-                                <div class="app-divider-v dashed"></div>
-                                <div class="main-title">
-                                    <h6>Pricing</h6>
-                                </div>
-                                <div class="app-form">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="mb-3">
-                                                <label asp-for="Price" class="form-label"></label>
-                                                <div class="input-group mb-3">
-                                                    <input asp-for="Price" class="form-control b-r-right" id="price" aria-label="Price" aria-describedby="basic-addon1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="app-divider-v dashed"></div>
+                                
                             </div>
                             <div class="col-12">
                                 <div class="mt-4 d-flex justify-content-end gap-2 flex-column flex-sm-row text-end">

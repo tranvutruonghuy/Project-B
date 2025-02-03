@@ -41,7 +41,7 @@
     <!-- Filepond css -->
     <link rel="stylesheet" href="~/utils_admin/assets/libs/filepond/filepond.min.css" type="text/css" />
     <link rel="stylesheet" href="~/utils_admin/assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css">
-
+    <link rel="stylesheet" href="//cdn.datatables.net/2.2.1/css/dataTables.dataTables.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
@@ -701,14 +701,19 @@
                                 <span class="d-flex align-items-center">
                                     <img class="rounded-circle header-profile-user" src="~/utils_admin/assets/images/users/avatar-1.jpg" alt="Header Avatar">
                                     <span class="text-start ms-xl-2">
-                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Anna Adame</span>
-                                        <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
+                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">@User.FindFirst("FullName")?.Value</span>
+                                       @{
+                                             if (User.IsInRole("Admin"))
+                                             {
+                                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Admin</span>
+                                             }
+                                       }
                                     </span>
                                 </span>
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <!-- item-->
-                                <h6 class="dropdown-header">Welcome Anna!</h6>
+                                <h6 class="dropdown-header">Welcome @User.FindFirst("FullName")?.Value !</h6>
                                 <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
                                 <a class="dropdown-item" href="apps-chat.html"><i class="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Messages</span></a>
                                 <a class="dropdown-item" href="apps-tasks-kanban.html"><i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Taskboard</span></a>
@@ -717,7 +722,7 @@
                                 <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-wallet text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Balance : <b>$5971.67</b></span></a>
                                 <a class="dropdown-item" href="pages-profile-settings.html"><span class="badge bg-success-subtle text-success mt-1 float-end">New</span><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
                                 <a class="dropdown-item" href="auth-lockscreen-basic.html"><i class="mdi mdi-lock text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Lock screen</span></a>
-                                <a class="dropdown-item" href="auth-logout-basic.html"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                                <a class="dropdown-item" asp-action="LogoutAdmin" asp-controller="Account"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
                             </div>
                         </div>
                     </div>
@@ -815,29 +820,15 @@
                             <div class="collapse menu-dropdown" id="sidebarDashboards">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="dashboard-analytics.html" class="nav-link" data-key="t-analytics"> Analytics </a>
+                                        <a asp-action="ProductList" asp-controller="Product" class="nav-link" data-key="t-analytics"> Home (not implement) </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crm.html" class="nav-link" data-key="t-crm"> CRM </a>
+                                        <a asp-action="ProductList" asp-controller="Product" class="nav-link" data-key="t-analytics"> All Products </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link" data-key="t-ecommerce"> Ecommerce </a>
+                                        <a asp-action="Index" asp-controller="Category" class="nav-link" data-key="t-analytics"> All Category </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"> Crypto </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-projects.html" class="nav-link" data-key="t-projects"> Projects </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-nft.html" class="nav-link" data-key="t-nft"> NFT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-job.html" class="nav-link" data-key="t-job">Job</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-blog.html" class="nav-link"><span data-key="t-blog">Blog</span> <span class="badge bg-success" data-key="t-new">New</span></a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </li> <!-- end Dashboard Menu -->
@@ -2057,6 +2048,11 @@
     <!-- App js -->
     <script src="~/utils_admin/assets/js/app.js"></script>
     <script src="~/utils_admin/assets/js/myScriptt.js"></script>
+    <script src="~/utils_admin/js/myScript.js"></script>
+    <!-- validation init -->
+    <script src="~/utils_admin/assets/js/pages/form-validation.init.js"></script>
+
+    <script src="//cdn.datatables.net/2.2.1/js/dataTables.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 
