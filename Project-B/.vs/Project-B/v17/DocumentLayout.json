@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\viewmodel\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\viewmodel\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\account\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\account\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_cartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_cartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_smallcartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_smallcartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\wwwroot\\utils_admin\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\wwwroot\\utils_admin\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_smallcartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_smallcartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,112 +55,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CartItemViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\CartItemViewModel.cs",
-              "RelativeDocumentMoniker": "Project-B\\Models\\ViewModel\\CartItemViewModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\CartItemViewModel.cs",
-              "RelativeToolTip": "Project-B\\Models\\ViewModel\\CartItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Title": "LoginAdmin.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\LoginAdmin.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Account\\LoginAdmin.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\LoginAdmin.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Account\\LoginAdmin.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG8AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:17:34.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Project-B\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Project-B\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAOoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T05:09:07.901Z",
+              "WhenOpened": "2025-02-05T07:12:19.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_SmallCartPartial.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T05:04:32.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB0BAAAAAAAAAAAcwCoBAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T04:40:43.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_CartPartial.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_CartPartial.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_CartPartial.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_CartPartial.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Shared\\_CartPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T04:28:53.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WishListController.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\WishListController.cs",
-              "RelativeDocumentMoniker": "Project-B\\Controllers\\WishListController.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\WishListController.cs",
-              "RelativeToolTip": "Project-B\\Controllers\\WishListController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T04:01:43.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "myScript.js",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_admin\\js\\myScript.js",
-              "RelativeDocumentMoniker": "Project-B\\wwwroot\\utils_admin\\js\\myScript.js",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_admin\\js\\myScript.js",
-              "RelativeToolTip": "Project-B\\wwwroot\\utils_admin\\js\\myScript.js",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAAwDYBAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-02T02:32:05.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
-              "RelativeDocumentMoniker": "Project-B\\Program.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
-              "RelativeToolTip": "Project-B\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA8AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T02:21:37.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Product\\Create.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T01:37:18.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Project-B\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Project-B\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T10:36:46.799Z"
+              "WhenOpened": "2025-02-05T07:09:24.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project-B\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project-B\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAAMAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:04:20.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_SmallCartPartial.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Shared\\_SmallCartPartial.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:03:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAAMMAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:02:24.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
+              "RelativeDocumentMoniker": "Project-B\\Program.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Program.cs",
+              "RelativeToolTip": "Project-B\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:01:31.1Z",
+              "EditorCaption": ""
             }
           ]
         }

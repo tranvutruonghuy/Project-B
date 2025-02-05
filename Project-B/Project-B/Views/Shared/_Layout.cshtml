@@ -193,7 +193,7 @@
                                                         {
                                                             <li><a>Hi, @User.FindFirst("FullName")?.Value</a></li>
                                                             <li><a href="account.html">My Account</a></li>
-                                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                                            <li><a asp-action="Logout" asp-controller="Account">Log out</a></li>
                                                         } else  {
                                                             <li><a asp-controller="Account" asp-action="Login">Sign in</a></li>
                                                             <li><a asp-controller="Account" asp-action="Create">Register</a></li>

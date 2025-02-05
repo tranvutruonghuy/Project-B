@@ -69,7 +69,10 @@ namespace Project_B.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Username, Password")] UserModel user)
         {
-            if (!ModelState.IsValid)
+            ModelState.Remove("Email");
+            ModelState.Remove("Name");
+            ModelState.Remove("Phone");
+            if (ModelState.IsValid)
             {
                 Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user.Username, user.Password, false, false);
                 if (result.Succeeded)
@@ -82,19 +85,26 @@ namespace Project_B.Controllers
                         new Claim("FullName", existingUser.FullName)
                     };
 
-                    var claimsIdentity = new ClaimsIdentity(claims, "Login");
-                    await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
+                    
 
-                    if (roles.Contains("User")) {
+                    if (roles.Contains("User"))
+                    {
                         Console.WriteLine("Welcome!");
+                        await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
                         return RedirectToAction("Index", "Home");
                     }
-                    
+                    else
+                    {
+                        ModelState.AddModelError("", "User does not have the required role.");
+                        await _signInManager.SignOutAsync(); // Đăng xuất nếu không có vai trò User
+                        return View(user);
+                    }
                 }
                 ModelState.AddModelError("", "Invalid username or password");
             }
             return View(user);
         }
+
 
         public async Task<IActionResult> Logout (string returnUrl = "/")
         {
@@ -169,13 +179,20 @@ namespace Project_B.Controllers
                     };
 
                     var claimsIdentity = new ClaimsIdentity(claims, "Login");
-                    await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
+                    
 
                     if (roles.Contains("Admin"))
                     {
                         Console.WriteLine("Welcome!");
+                        await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
                         return RedirectToAction("ProductList", "Product");
 
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "User does not have the required role.");
+                        await _signInManager.SignOutAsync(); // Đăng xuất nếu không có vai trò User
+                        return View(user);
                     }
 
                 }

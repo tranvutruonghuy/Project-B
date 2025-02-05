@@ -18196,13 +18196,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 04:33:52 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 07:00:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/js/myScript.nefa0oh3hu.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nefa0oh3hu"},{"Name":"integrity","Value":"sha256-gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I="},{"Name":"label","Value":"_content/Project-B/utils_admin/js/myScript.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 04:33:52 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gWOlGmexv3vVaYe7rNh253582HHywfdLGN3aIl7zF3I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 07:00:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Project-B/utils_admin/pages/analytics-customers.init.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\pages\analytics-customers.init.js'))</AssetFile>
