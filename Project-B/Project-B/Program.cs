@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Project_B.Data;
 using Project_B.Models;
+using Project_B.Services;
 namespace Project_B
 {
     public class Program
@@ -62,6 +64,7 @@ namespace Project_B
                 };
             });
 
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
 
             var app = builder.Build();
 
