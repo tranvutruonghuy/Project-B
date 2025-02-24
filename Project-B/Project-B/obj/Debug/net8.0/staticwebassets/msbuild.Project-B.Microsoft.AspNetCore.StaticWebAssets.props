@@ -9468,6 +9468,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\p2_2025-01-20_14-10-21_472_Screenshot 2024-10-12 163633.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product12_2025-02-24_15-03-36_583_Screenshot 2023-12-23 095903.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product12_2025-02-24_15-03-36_583_Screenshot 2023-12-23 095903.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2gf34gf0uh</Fingerprint>
+      <Integrity>8iQ3OeaaXaE5m8OAYxQUbosvNV3P9xxGUQOKDslRcE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product12_2025-02-24_15-03-36_583_Screenshot 2023-12-23 095903.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product12_2025-02-24_15-03-47_947_Screenshot 2023-12-23 095903.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product12_2025-02-24_15-03-47_947_Screenshot 2023-12-23 095903.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2gf34gf0uh</Fingerprint>
+      <Integrity>8iQ3OeaaXaE5m8OAYxQUbosvNV3P9xxGUQOKDslRcE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product12_2025-02-24_15-03-47_947_Screenshot 2023-12-23 095903.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product1a_2025-01-13_21-54-18_216_IMG_0238_fc19904162.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9719,6 +9755,672 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product2_2025-01-26_15-20-45_770_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR222_2025-02-24_13-35-56_586_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR222_2025-02-24_13-35-56_586_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR222_2025-02-24_13-35-56_586_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-54-55_834_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-54-55_834_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-54-55_834_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_386_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-11_386_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_386_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_572_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-11_572_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_572_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_744_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-11_744_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_744_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_920_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-11_920_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_920_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_061_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-12_061_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_061_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_223_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-12_223_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_223_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_375_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-12_375_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_375_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_517_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-12_517_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_517_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_686_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcdes_2025-02-24_14-55-12_686_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_686_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-06_513_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcde_2025-02-24_13-47-06_513_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-06_513_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-07_814_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcde_2025-02-24_13-47-07_814_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-07_814_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-09_043_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcde_2025-02-24_13-47-09_043_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-09_043_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-10_395_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcde_2025-02-24_13-47-10_395_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-10_395_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcd_2025-02-24_13-44-34_279_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abcd_2025-02-24_13-44-34_279_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abcd_2025-02-24_13-44-34_279_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-26_656_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-26_656_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-26_656_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-52_532_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-52_532_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-52_532_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_025_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_025_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_025_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_202_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_202_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_202_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_354_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_354_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_354_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_513_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_513_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_513_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_684_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_684_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_684_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_850_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-53_850_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_850_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_071_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-54_071_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_071_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_461_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-54_461_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_461_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_633_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-54_633_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_633_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_786_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-54_786_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_786_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_948_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-54_948_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_948_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_108_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-55_108_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_108_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_267_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-55_267_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_267_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_470_Screenshot 2023-12-26 170629.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22abc_2025-02-24_13-43-55_470_Screenshot 2023-12-26 170629.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3j9v1agcm</Fingerprint>
+      <Integrity>GnQl5UGUTGXhhuNc9Gt54F+nK2qR/807dPJSj/yB4Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_470_Screenshot 2023-12-26 170629.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22ab_2025-02-24_13-39-22_336_Screenshot 2023-12-23 095903.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22ab_2025-02-24_13-39-22_336_Screenshot 2023-12-23 095903.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2gf34gf0uh</Fingerprint>
+      <Integrity>8iQ3OeaaXaE5m8OAYxQUbosvNV3P9xxGUQOKDslRcE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22ab_2025-02-24_13-39-22_336_Screenshot 2023-12-23 095903.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22a_2025-02-24_13-37-44_471_Screenshot 2023-12-22 141901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22a_2025-02-24_13-37-44_471_Screenshot 2023-12-22 141901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t16eq8y7fn</Fingerprint>
+      <Integrity>34+XTrgPCMni2TB2d3ECJrjbIwzRxiKuo+bZ+ThhCfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22a_2025-02-24_13-37-44_471_Screenshot 2023-12-22 141901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22_2025-02-24_13-33-18_136_Screenshot 2023-12-23 095903.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR22_2025-02-24_13-33-18_136_Screenshot 2023-12-23 095903.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2gf34gf0uh</Fingerprint>
+      <Integrity>8iQ3OeaaXaE5m8OAYxQUbosvNV3P9xxGUQOKDslRcE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR22_2025-02-24_13-33-18_136_Screenshot 2023-12-23 095903.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR2_2025-02-24_13-32-39_845_Screenshot 2023-12-24 210225.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR2_2025-02-24_13-32-39_845_Screenshot 2023-12-24 210225.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwhmbl85jw</Fingerprint>
+      <Integrity>JCOsPYJlbBxCElh6Lk+QHfCgMa903+FbmNnyWloaFKw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR2_2025-02-24_13-32-39_845_Screenshot 2023-12-24 210225.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR_2025-02-24_13-29-55_069_Screenshot 2025-02-09 163007.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/TestCKEDITOR_2025-02-24_13-29-55_069_Screenshot 2025-02-09 163007.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bz24v0r3w4</Fingerprint>
+      <Integrity>6SiBu1oE1y/FuDL399qnMallVZ2IWOqB23SMI6kPlB8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\TestCKEDITOR_2025-02-24_13-29-55_069_Screenshot 2025-02-09 163007.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\assets\css\app.min.css'))">
       <SourceType>Package</SourceType>
@@ -21450,8 +22152,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r2a534q9hh</Fingerprint>
-      <Integrity>QxXoJIuYoSJSaj6T3qy0QdPpPQsjGPLDk6bLNh61SgE=</Integrity>
+      <Fingerprint>x3c7orhmhq</Fingerprint>
+      <Integrity>DS1et4eLoVInXCvip2IbmViBNg9Hm8lgJTJzp6ZDvr0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\assets\js\myScriptt.js'))</OriginalItemSpec>

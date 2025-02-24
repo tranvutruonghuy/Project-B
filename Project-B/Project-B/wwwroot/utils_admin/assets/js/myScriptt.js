@@ -32,6 +32,7 @@
             .then(response => response.json())
             .then(data => {
                 console.log('Success:', data);
+                window.location.href = '/admin/product';
                 // Xử lý phản hồi từ server
             })
             .catch(error => {
