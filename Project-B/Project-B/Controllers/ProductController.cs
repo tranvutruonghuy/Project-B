@@ -24,10 +24,27 @@ namespace Project_B.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pg = 1)
         {
+            List<ProductModel> product = _context.Products.ToList();
+
+            const int pageSize = 1;
+
+            if(pg < 1)
+            {
+                pg = 1;
+            }
+            int recsCount = product.Count();
+
+            var pager = new Paginate(recsCount, pg, pageSize);
+
+            var recSkip = (pg - 1) * pageSize;
+
+            var data = product.Skip(recSkip).Take(pager.PageSize).ToList();
+
+            ViewBag.Pager = pager;
             var dataContext = _context.Products.Include(p => p.Category);
-            return View(await dataContext.ToListAsync());
+            return View(data);
         }
 
         // GET: Product/Details/5
@@ -67,52 +84,104 @@ namespace Project_B.Controllers
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Create")]
         [Authorize(Roles = "Admin")]
+        //public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
+        //{
+        //    ModelState.Remove("Image");
+        //    ModelState.Remove("Category");
+        //    if (ModelState.IsValid)
+        //    {
+        //        string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
+        //        String fileName = "";
+        //        foreach (var file in Request.Form.Files)
+        //        {
+        //            if (file.Length > 0)
+        //            {
+                        
+        //                String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+        //                fileName = productModel.Name + "_" + currentDate + "_" + file.FileName;
+        //                String filePath = Path.Combine(uploadFolder, fileName);
+        //                using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+        //                {
+        //                    file.CopyTo(fileStream);
+        //                }
+        //            }
+        //        }
+               
+        //        ProductModel newProduct = new ProductModel();
+        //        newProduct.Name = productModel.Name;
+        //        newProduct.Description = productModel.Description;
+        //        newProduct.CategoryId = productModel.CategoryId;
+        //        newProduct.ShortDescription = productModel.ShortDescription;
+        //        newProduct.Price = productModel.Price;
+        //        newProduct.InStock = productModel.InStock;
+        //        newProduct.Image = fileName;
+        //        newProduct.Unit = productModel.Unit;
+        //        _context.Add(newProduct);
+        //        await _context.SaveChangesAsync();
+        //        return Redirect("admin/product");
+            
+        //}
+        //    if (!ModelState.IsValid)
+        //    {
+        //        var errors = ModelState.Values.SelectMany(v => v.Errors);
+        //        foreach (var error in errors)
+        //        {
+        //            Console.WriteLine(error.ErrorMessage);
+        //        }
+        //    }
+        //    //ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
+        //    return View(productModel);
+        //}
         public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
         {
             ModelState.Remove("Image");
             ModelState.Remove("Category");
+
             if (ModelState.IsValid)
             {
-                string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
-                String fileName = "";
-                foreach (var file in Request.Form.Files)
+                try
                 {
-                    if (file.Length > 0)
+                    string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
+                    string fileName = "";
+                    foreach (var file in Request.Form.Files)
                     {
-                        
-                        String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                        fileName = productModel.Name + "_" + currentDate + "_" + file.FileName;
-                        String filePath = Path.Combine(uploadFolder, fileName);
-                        using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                        if (file.Length > 0)
                         {
-                            file.CopyTo(fileStream);
+                            string uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                            fileName = $"{productModel.Name}_{currentDate}_{file.FileName}";
+                            string filePath = Path.Combine(uploadFolder, fileName);
+                            using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                            {
+                                await file.CopyToAsync(fileStream);
+                            }
                         }
                     }
+
+                    ProductModel newProduct = new ProductModel
+                    {
+                        Name = productModel.Name,
+                        Description = productModel.Description,
+                        CategoryId = productModel.CategoryId,
+                        ShortDescription = productModel.ShortDescription,
+                        Price = productModel.Price,
+                        InStock = productModel.InStock,
+                        Image = fileName,
+                        Unit = productModel.Unit
+                    };
+
+                    _context.Add(newProduct);
+                    await _context.SaveChangesAsync();
+                    return Json(new { success = true, message = "Product created successfully!" });
                 }
-               
-                ProductModel newProduct = new ProductModel();
-                newProduct.Name = productModel.Name;
-                newProduct.Description = productModel.Description;
-                newProduct.CategoryId = productModel.CategoryId;
-                newProduct.ShortDescription = productModel.ShortDescription;
-                newProduct.Price = productModel.Price;
-                newProduct.InStock = productModel.InStock;
-                newProduct.Image = fileName;
-                newProduct.Unit = productModel.Unit;
-                _context.Add(newProduct);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("ProductList", "Product");
-            }
-            if (!ModelState.IsValid)
-            {
-                var errors = ModelState.Values.SelectMany(v => v.Errors);
-                foreach (var error in errors)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(error.ErrorMessage);
+                    // Log the exception (optional)
+                    return Json(new { success = false, message = ex.Message });
                 }
             }
-            //ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
-            return View(productModel);
+
+            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+            return Json(new { success = false, errors = errors });
         }
 
         // GET: Product/Edit/5
@@ -179,7 +248,7 @@ namespace Project_B.Controllers
                 newProduct.Unit = productModel.Unit;
                 //_context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(ProductList));
+                return RedirectToAction("ProductList", "Product");
             }
             if (!ModelState.IsValid)
             {
@@ -234,6 +303,7 @@ namespace Project_B.Controllers
         // Get: Product/ProductList
         [Route("Admin/Product")]
         [Authorize(Roles = "Admin")]
+        [HttpGet]
         public IActionResult ProductList()
         {
             var productList = _context.Products.ToList();

@@ -66,7 +66,7 @@
                                                 <label asp-for="Description" class="form-label"></label>
                                             </div>
                                             <div class="col-lg-11">
-                                                <textarea class="form-control" id="product-detail" rows="3" asp-for="Description" required></textarea>
+                                                <textarea class="form-control" id="product-detail" rows="3" asp-for="Description"></textarea>
                                                 <div class="valid-feedback">
                                                     This look good!
                                                 </div>
@@ -74,6 +74,9 @@
                                                     Please enter this field!
                                                 </div>
                                             </div>
+                                            <script>
+                                                CKEDITOR.replace('product-detail');
+                                            </script>
                                         </div>
                                         <div class="row mb-3">
                                             <div class="col-lg-1">
