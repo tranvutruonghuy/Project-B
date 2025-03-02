@@ -28,7 +28,7 @@ namespace Project_B.Controllers
         {
             List<ProductModel> product = _context.Products.ToList();
 
-            const int pageSize = 1;
+            const int pageSize = 8;
 
             if(pg < 1)
             {
@@ -206,19 +206,13 @@ namespace Project_B.Controllers
         // POST: Product/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Edit")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel, IFormFile Image)
         {
-            if (id != productModel.Id)
-            {
-                return NotFound();
-            }
-            ModelState.Remove("Image");
-            if (ModelState.IsValid)
-            {
+            
                 //coppy lai duong dan cua img
                 string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
                 String fileName = "";
@@ -248,18 +242,7 @@ namespace Project_B.Controllers
                 newProduct.Unit = productModel.Unit;
                 //_context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("ProductList", "Product");
-            }
-            if (!ModelState.IsValid)
-            {
-                var errors = ModelState.Values.SelectMany(v => v.Errors);
-                foreach (var error in errors)
-                {
-                    Console.WriteLine(error.ErrorMessage);
-                }
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
-            return View(productModel);
+                return RedirectToAction(nameof(ProductList));
         }
 
         // GET: Product/Delete/5
@@ -313,6 +296,16 @@ namespace Project_B.Controllers
             ViewBag.CategoryList = categoryList;
 
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult LoadCategoryMenu()
+        {
+            var categories = _context.Categories.ToList();
+            var products = _context.Products.ToList();
+            ViewBag.Categories = categories;
+            ViewBag.Products = products;
+            return PartialView("_CategoryListPartial");
         }
 
         private bool ProductModelExists(int id)

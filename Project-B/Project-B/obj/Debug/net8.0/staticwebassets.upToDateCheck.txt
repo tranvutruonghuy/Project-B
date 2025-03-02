@@ -521,61 +521,11 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\uploadImages\fsafsa_2025-01-20_13-56-55_623_Mixing fragrance oils from different formulas.png
-wwwroot\uploadImages\p2_2025-01-20_14-10-21_472_Screenshot 2024-10-12 163633.png
-wwwroot\uploadImages\Product1_2025-01-13_16-20-55_178_TUK_05777_2ebfbc3e43.png
-wwwroot\uploadImages\Product1_2025-01-13_21-53-20_045_logo-gl7a1072-16460442579181133572179.png
-wwwroot\uploadImages\Product1_2025-01-13_22-04-30_866_logo-gl7a1072-16460442579181133572179.png
-wwwroot\uploadImages\Product1_2025-01-13_22-05-30_760_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png
-wwwroot\uploadImages\Product1_2025-01-13_22-08-51_501_TUK_05777_2ebfbc3e43.png
-wwwroot\uploadImages\Product1_2025-01-13_22-09-35_740_IMG_0238_fc19904162.png
-wwwroot\uploadImages\Product1_2025-01-13_22-10-42_157_IMG_0238_fc19904162.png
-wwwroot\uploadImages\Product1_2025-01-13_22-17-03_218_TUK_05777_2ebfbc3e43.png
-wwwroot\uploadImages\Product1_2025-01-13_22-26-25_844_TUK_05777_2ebfbc3e43.png
-wwwroot\uploadImages\Product1_2025-01-14_12-03-13_873_TUK_05777_2ebfbc3e43.png
-wwwroot\uploadImages\Product12_2025-02-24_15-03-36_583_Screenshot 2023-12-23 095903.png
-wwwroot\uploadImages\Product12_2025-02-24_15-03-47_947_Screenshot 2023-12-23 095903.png
-wwwroot\uploadImages\Product1a_2025-01-13_21-54-18_216_IMG_0238_fc19904162.png
-wwwroot\uploadImages\Product2_2025-01-26_15-20-39_965_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png
-wwwroot\uploadImages\Product2_2025-01-26_15-20-45_004_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png
-wwwroot\uploadImages\Product2_2025-01-26_15-20-45_770_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png
-wwwroot\uploadImages\TestCKEDITOR_2025-02-24_13-29-55_069_Screenshot 2025-02-09 163007.png
-wwwroot\uploadImages\TestCKEDITOR2_2025-02-24_13-32-39_845_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22_2025-02-24_13-33-18_136_Screenshot 2023-12-23 095903.png
-wwwroot\uploadImages\TestCKEDITOR222_2025-02-24_13-35-56_586_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22a_2025-02-24_13-37-44_471_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22ab_2025-02-24_13-39-22_336_Screenshot 2023-12-23 095903.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-26_656_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-52_532_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_025_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_202_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_354_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_513_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_684_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-53_850_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_071_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_461_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_633_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_786_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-54_948_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_108_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_267_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abc_2025-02-24_13-43-55_470_Screenshot 2023-12-26 170629.png
-wwwroot\uploadImages\TestCKEDITOR22abcd_2025-02-24_13-44-34_279_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-06_513_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-07_814_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-09_043_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22abcde_2025-02-24_13-47-10_395_Screenshot 2023-12-22 141901.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-54-55_834_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_386_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_572_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_744_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-11_920_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_061_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_223_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_375_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_517_Screenshot 2023-12-24 210225.png
-wwwroot\uploadImages\TestCKEDITOR22abcdes_2025-02-24_14-55-12_686_Screenshot 2023-12-24 210225.png
+wwwroot\uploadImages\Huy Nguyễn_2025-02-25_12-16-03_534_logo-gl7a1072-16460442579181133572179.png
+wwwroot\uploadImages\Huy Nguyễn_2025-02-25_16-43-40_140_TUK_05777_2ebfbc3e43.png
+wwwroot\uploadImages\Kem Nizoral Jassen 20mg-gs_2025-02-25_16-59-56_915_DSC_09303_c64524033d.webp
+wwwroot\uploadImages\Thuốc Fugacar 500mg Janssen_2025-02-25_16-49-20_899_DSC_09712_a9af41467c.webp
+wwwroot\uploadImages\Thuốc mỡ bôi da Agiclovir 5% Agimexpharm_2025-02-25_11-34-04_920_IMG_4181_5c3f068c81.webp
 wwwroot\utils_admin\assets\css\app.min.css
 wwwroot\utils_admin\assets\css\bootstrap.min.css
 wwwroot\utils_admin\assets\css\custom.min.css

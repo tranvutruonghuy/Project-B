@@ -1,0 +1,43 @@
+﻿
+
+@if (ViewBag.Categories == null || ViewBag.Products == null)
+{
+    <p>Data is not available.</p>
+}
+else
+{
+    @foreach (CategoryModel category in ViewBag.Categories)
+    {
+        
+            <ul>
+                <li class="ltn__category-menu-item ltn__category-menu-drop">
+                    <a asp-action="Index" asp-controller="Product"><i class="icon-shopping-bags"></i>@category.Name</a>
+                    <ul class="ltn__category-submenu ltn__category-column-5">
+                        <li class="ltn__category-submenu-title ltn__category-menu-drop">
+                            @foreach (var product in ViewBag.Products)
+                            {
+
+                                <ul class="ltn__category-submenu-children">
+                                    @if (product.CategoryId == category.Id)
+                                    {
+                                        <li>
+                                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@product.Id">@product.Name</a>
+                                        </li>
+
+
+                                    }
+                                </ul>
+
+
+                            }
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+       
+        
+    }
+}
+
+
