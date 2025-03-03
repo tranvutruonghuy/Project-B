@@ -16,6 +16,10 @@
     form.addEventListener('submit', function (e) {
         e.preventDefault(); // Ngăn chặn hành vi submit mặc định của form
 
+        // Cập nhật giá trị của CKEditor
+        for (instance in CKEDITOR.instances) {
+            CKEDITOR.instances[instance].updateElement();
+        }
         // Tạo đối tượng FormData
         const formData = new FormData(this);
 
@@ -32,6 +36,7 @@
             .then(response => response.json())
             .then(data => {
                 console.log('Success:', data);
+                window.location.href = '/admin/product';
                 // Xử lý phản hồi từ server
             })
             .catch(error => {

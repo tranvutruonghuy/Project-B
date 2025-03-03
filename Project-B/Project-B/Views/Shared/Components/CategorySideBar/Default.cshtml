@@ -13,7 +13,7 @@
         <div class="nav">
             @foreach (var category in ViewBag.Categories)
             {
-                @if (category.ParentID != -1)
+                @if (category.ParentID != -2)
                 {
                     <a data-bs-toggle="tab" href="#id-@category.Id" class="tab-link @(count == 0 ? "active" : "")">@category.Name</a>
                     count++;

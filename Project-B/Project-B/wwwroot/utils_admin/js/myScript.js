@@ -313,4 +313,15 @@ function addToCart() {
     });
 }
 
+    $(document).ready(function () {
+        $.ajax({
+            url: 'Product/LoadCategoryMenu',
+            type: 'GET',
+            success: function (data) {
+                $('#category-menu').html(data);
+            },
+
+        });
+    }
+   )
 

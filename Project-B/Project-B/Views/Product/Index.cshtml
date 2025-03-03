@@ -4,6 +4,15 @@
 @{
     ViewData["Title"] = "Shop";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    Paginate pager = new Paginate();
+
+    int pageNo = 0;
+
+    if (ViewBag.Pager != null){
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
 }
 
 <!-- BREADCRUMB AREA START -->
@@ -98,17 +107,61 @@
                         </div>
                     </div>
                 </div>
+                
 
                 <div class="ltn__pagination-area text-center">
                     <div class="ltn__pagination">
                         <ul>
-                            <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">...</a></li>
-                            <li><a href="#">10</a></li>
-                            <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                            @if (pager.TotalPages > 0) //2 trang
+                            {
+                                
+
+                                    @if (pager.CurrentPage > 1)
+                                    {
+                                    
+                                    <li >
+                                            <a asp-action="Index"
+                                               asp-route-pg="1">First</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Index"
+                                           asp-route-pg="@(pager.CurrentPage - 1)">
+                                            <i class="fas fa-angle-double-left"></i>
+
+                                        </a>
+                                    </li>
+                                        
+                                    }
+                                    @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++) //1 = 1 <= 2
+                                    {
+                                        <li class="@(pge==pager.CurrentPage ? "active" : "")">
+                                            <a asp-action="Index" asp-route-pg="@pge">@pge</a>
+                                        </li>
+
+
+                                    }
+                                    @if (pager.CurrentPage < pager.TotalPages)
+                                    {
+                                        <li>
+                                            <a asp-action="Index"
+                                           asp-route-pg="@(pager.CurrentPage+1)"><i class="fas fa-angle-double-right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a asp-action="Index"
+                                               asp-route-pg="@(pager.TotalPages)">Last</a>
+                                        </li>
+                                    }
+                                
+                            }
+
+
+                            @* <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li> *@
+                            @* <li class="active"><a href="#">1</a></li> *@
+                            @* <li><a href="#">2</a></li> *@
+                            @* <li><a href="#">3</a></li> *@
+                            @* <li><a href="#">...</a></li> *@
+                            @* <li><a href="#">10</a></li> *@
+                            @* <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li> *@
                         </ul>
                     </div>
                 </div>
