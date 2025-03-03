@@ -9,6 +9,7 @@ namespace Project_B.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+        public string Title { get; set; }
         [ForeignKey("ClientModel")]
         public int ClientId { get; set; }
         [Required]
@@ -23,11 +24,8 @@ namespace Project_B.Models
         [Required]
         [StringLength(255)]
         public string Street { get; set; }
-        [Required]
-        public AddressType AddressType { get; set; }
         public bool Default { get; set; }
         // Navigation property
         public virtual AppUserModel Client { get; set; }
     }
-    public enum AddressType { office, home }
 }

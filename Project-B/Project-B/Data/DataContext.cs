@@ -18,5 +18,7 @@ namespace Project_B.Data
         public DbSet<Project_B.Models.CategoryModel> Categories { get; set; } = default!;
         public DbSet<Project_B.Models.ProductModel> Products { get; set; } = default!;
         public DbSet<Project_B.Models.WishListModel> WishLists { get; set; } = default!;
+        public DbSet<Project_B.Models.OrderModel> Orders { get; set; } = default!;
+        public DbSet<Project_B.Models.OrderDetailsModel> OrderDetails { get; set; } = default!;
     }
 }

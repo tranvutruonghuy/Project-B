@@ -22,6 +22,7 @@ namespace Project_B.Models
         public string Note { get; set; }
         [StringLength(20)]
         public string PaymentMethod { get; set; }
+        public int Status { get; set; }
         [StringLength(20)]
         // Navigation properties
         public virtual AppUserModel Client { get; set; }

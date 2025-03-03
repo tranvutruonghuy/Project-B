@@ -7988,23 +7988,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wunhh\\.nuget\\packages\\": {},
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Project-B.csproj",
+      "projectUniqueName": "C:\\Project-B\\Project-B\\Project-B\\Project-B.csproj",
       "projectName": "Project-B",
-      "projectPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Project-B.csproj",
-      "packagesPath": "C:\\Users\\Wunhh\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\obj\\",
+      "projectPath": "C:\\Project-B\\Project-B\\Project-B\\Project-B.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Project-B\\Project-B\\Project-B\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wunhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

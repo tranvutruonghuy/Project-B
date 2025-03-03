@@ -117,7 +117,6 @@ namespace Project_B.Controllers
 
         // GET: Product/Edit/5
         [Route("Admin/Product/Edit")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

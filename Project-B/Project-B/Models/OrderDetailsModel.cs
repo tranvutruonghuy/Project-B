@@ -10,7 +10,7 @@ namespace Project_B.Models
         public int Id { get; set; }
         [ForeignKey("OrderModel")]
         public int OrderId { get; set; }
-        [ForeignKey("ProductModel")]
+        [ForeignKey("ProductModel")] 
         public int ProductId { get; set; }
         public int Quantity { get; set; }
         [Column(TypeName = "decimal(15,2)")]
