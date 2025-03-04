@@ -24,9 +24,9 @@ namespace Project_B.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Index(int pg = 1)
+        public async Task<IActionResult> Index(int pg = 1, string sortType = "default")
         {
-            List<ProductModel> product = _context.Products.ToList();
+            List<ProductModel> product =  _context.Products.ToList();
 
             const int pageSize = 8;
 
@@ -44,6 +44,19 @@ namespace Project_B.Controllers
 
             ViewBag.Pager = pager;
             var dataContext = _context.Products.Include(p => p.Category);
+
+            switch (sortType)
+            {
+                case "asc":
+                    data.Sort((a, b) => a.Price.CompareTo(b.Price));
+                    break;
+                case "des":
+                    data.Sort((a, b) => b.Price.CompareTo(a.Price));
+                    break;
+                default: 
+                    break;
+            }
+
             return View(data);
         }
 
@@ -84,54 +97,6 @@ namespace Project_B.Controllers
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Create")]
         [Authorize(Roles = "Admin")]
-        //public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
-        //{
-        //    ModelState.Remove("Image");
-        //    ModelState.Remove("Category");
-        //    if (ModelState.IsValid)
-        //    {
-        //        string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
-        //        String fileName = "";
-        //        foreach (var file in Request.Form.Files)
-        //        {
-        //            if (file.Length > 0)
-        //            {
-                        
-        //                String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-        //                fileName = productModel.Name + "_" + currentDate + "_" + file.FileName;
-        //                String filePath = Path.Combine(uploadFolder, fileName);
-        //                using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
-        //                {
-        //                    file.CopyTo(fileStream);
-        //                }
-        //            }
-        //        }
-               
-        //        ProductModel newProduct = new ProductModel();
-        //        newProduct.Name = productModel.Name;
-        //        newProduct.Description = productModel.Description;
-        //        newProduct.CategoryId = productModel.CategoryId;
-        //        newProduct.ShortDescription = productModel.ShortDescription;
-        //        newProduct.Price = productModel.Price;
-        //        newProduct.InStock = productModel.InStock;
-        //        newProduct.Image = fileName;
-        //        newProduct.Unit = productModel.Unit;
-        //        _context.Add(newProduct);
-        //        await _context.SaveChangesAsync();
-        //        return Redirect("admin/product");
-            
-        //}
-        //    if (!ModelState.IsValid)
-        //    {
-        //        var errors = ModelState.Values.SelectMany(v => v.Errors);
-        //        foreach (var error in errors)
-        //        {
-        //            Console.WriteLine(error.ErrorMessage);
-        //        }
-        //    }
-        //    //ViewData["CategoryId"] = new SelectList(_context.CategoryModel, "Id", "Name", productModel.CategoryId);
-        //    return View(productModel);
-        //}
         public async Task<IActionResult> Create([Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit, Image")] ProductModel productModel, IFormFile[] Image)
         {
             ModelState.Remove("Image");
@@ -148,7 +113,7 @@ namespace Project_B.Controllers
                         if (file.Length > 0)
                         {
                             string uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                            fileName = $"{productModel.Name}_{currentDate}_{file.FileName}";
+                            fileName = $"Product_{productModel.Id}_{currentDate}_{file.FileName}";
                             string filePath = Path.Combine(uploadFolder, fileName);
                             using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
                             {
@@ -156,7 +121,10 @@ namespace Project_B.Controllers
                             }
                         }
                     }
-
+                    if (fileName == "")
+                    {
+                        fileName = "no_image.webp";
+                    }
                     ProductModel newProduct = new ProductModel
                     {
                         Name = productModel.Name,
@@ -198,6 +166,8 @@ namespace Project_B.Controllers
             {
                 return NotFound();
             }
+            string fileName = productModel.Image;
+            ViewBag.FileName = fileName;
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", productModel.CategoryId);
             return View(productModel);
         }
@@ -205,43 +175,59 @@ namespace Project_B.Controllers
         // POST: Product/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost, ActionName("Edit")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("Admin/Product/Edit")]
-        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Description,ShortDescription,InStock,Price,Unit,Image")] ProductModel productModel, IFormFile Image)
         {
-            
+                var newProduct = await _context.Products.FindAsync(id);
                 //coppy lai duong dan cua img
                 string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
                 String fileName = "";
-                if (Image != null)
+                foreach (var file in Request.Form.Files)
                 {
-                    String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                    fileName = productModel.Name + "_" + currentDate + "_" + Image.FileName;
-                    String filePath = Path.Combine(uploadFolder, fileName);
-                    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                    if (file.Length > 0)
                     {
-                        Image.CopyTo(fileStream);
+                        string uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                        fileName = $"Product_{productModel.Id}_{currentDate}_{file.FileName}";
+                        string filePath = Path.Combine(uploadFolder, fileName);
+                        
+                        using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                        {
+                            await file.CopyToAsync(fileStream);
+                        }
                     }
-
                 }
-                var newProduct = await _context.Products.FindAsync(id);
+                if (fileName == "")
+                {
+                    fileName = "no_image.webp";
+                }
+                //if (Image != null)
+                //{
+                //    String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                //    fileName = productModel.Name + "_" + currentDate + "_" + Image.FileName;
+                //    String filePath = Path.Combine(uploadFolder, fileName);
+                //    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                //    {
+                //        Image.CopyTo(fileStream);
+                //    }
+
+                //}
+                
                 newProduct.Name = productModel.Name;
                 newProduct.Description = productModel.Description;
                 newProduct.CategoryId = productModel.CategoryId;
                 newProduct.ShortDescription = productModel.ShortDescription;
                 newProduct.Price = productModel.Price;
                 newProduct.InStock = productModel.InStock;
-                if(Image != null)
-                {
-                    newProduct.Image = fileName;
-                }
+                newProduct.Image = fileName;
+                
             
                 newProduct.Unit = productModel.Unit;
                 //_context.Add(newProduct);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(ProductList));
+                return Json(new { success = true, message = "Product edit successfully!" });
         }
 
         // GET: Product/Delete/5
@@ -275,9 +261,18 @@ namespace Project_B.Controllers
             var productModel = await _context.Products.FindAsync(id);
             if (productModel != null)
             {
+                if (productModel.Image != "no_image.webp")
+                {
+                    string uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
+                    string filePath = Path.Combine(uploadFolder, productModel.Image);
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                }
                 _context.Products.Remove(productModel);
             }
-
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(ProductList));
         }

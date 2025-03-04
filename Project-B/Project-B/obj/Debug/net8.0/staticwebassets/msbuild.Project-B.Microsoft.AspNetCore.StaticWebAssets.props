@@ -9432,6 +9432,150 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Project-B.bbpgu52b7u.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-47-56_438_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-47-56_438_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-47-56_438_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-03_525_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-48-03_525_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-03_525_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-06_657_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-48-06_657_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-06_657_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-06_887_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-48-06_887_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-06_887_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-07_088_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-48-07_088_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-07_088_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-07_293_Hinh đẹp.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/aaaa_2025-02-18_11-48-07_293_Hinh đẹp.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xeo1ree168</Fingerprint>
+      <Integrity>J7uOefzNzh2VQiEqw4QSU6VsGDXS6nnS+BJI5muwwNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\aaaa_2025-02-18_11-48-07_293_Hinh đẹp.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rm6w5zo0nr</Fingerprint>
+      <Integrity>k/rXIGKU7I5AWImiCeJKOHGeZf40EUMmJJsuIzEQWmM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Flower 1_2025-02-26_12-32-07_959_picture1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Flower 1_2025-02-26_12-32-07_959_picture1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cz26llqkw8</Fingerprint>
+      <Integrity>mJ2yv8yQfaA5YsHNEgAobKAUqbM+/MYIjgkZQC8036I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Flower 1_2025-02-26_12-32-07_959_picture1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Huy Nguyễn_2025-02-25_12-16-03_534_logo-gl7a1072-16460442579181133572179.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9468,6 +9612,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Huy Nguyễn_2025-02-25_16-43-40_140_TUK_05777_2ebfbc3e43.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Iphone 13_2025-02-26_12-30-02_138_Iphone.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Iphone 13_2025-02-26_12-30-02_138_Iphone.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>atl588rpgs</Fingerprint>
+      <Integrity>rhVR5+VcpQd+vvd2lfGK//aoUm/XOA2k19n71WxexUM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Iphone 13_2025-02-26_12-30-02_138_Iphone.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Kem Nizoral Jassen 20mg-gs_2025-02-25_16-59-56_915_DSC_09303_c64524033d.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9486,6 +9648,114 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Kem Nizoral Jassen 20mg-gs_2025-02-25_16-59-56_915_DSC_09303_c64524033d.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_16-45-25_583_Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_0_2025-03-04_16-45-25_583_Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rm6w5zo0nr</Fingerprint>
+      <Integrity>k/rXIGKU7I5AWImiCeJKOHGeZf40EUMmJJsuIzEQWmM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_16-45-25_583_Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_16-47-41_282_Dau_dua.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_0_2025-03-04_16-47-41_282_Dau_dua.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rm6w5zo0nr</Fingerprint>
+      <Integrity>k/rXIGKU7I5AWImiCeJKOHGeZf40EUMmJJsuIzEQWmM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_16-47-41_282_Dau_dua.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_17-17-16_054_fugacar.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_0_2025-03-04_17-17-16_054_fugacar.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uhh8v6aydm</Fingerprint>
+      <Integrity>bn7/5LKb7Dfan9legeYGu7WQmJ8LxZ/goFVyMWbqy74=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_17-17-16_054_fugacar.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_17-19-11_014_Agilcovir.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_0_2025-03-04_17-19-11_014_Agilcovir.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q06lnpngc3</Fingerprint>
+      <Integrity>RgMz51ArVsnUlQMm6Q0MktggYPAeRn+wWs7TBT1DDfE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_17-19-11_014_Agilcovir.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_54_2025-03-04_17-10-58_543_Dau_dua.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_54_2025-03-04_17-10-58_543_Dau_dua.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rm6w5zo0nr</Fingerprint>
+      <Integrity>k/rXIGKU7I5AWImiCeJKOHGeZf40EUMmJJsuIzEQWmM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_54_2025-03-04_17-10-58_543_Dau_dua.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_54_2025-03-04_17-11-37_377_kem1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/Product_54_2025-03-04_17-11-37_377_kem1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8zx610k3xo</Fingerprint>
+      <Integrity>fG0ITiQk/HPYb1yFUBAB1jMf/tkdq82yROPmJfjkbZE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_54_2025-03-04_17-11-37_377_kem1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Thuốc Fugacar 500mg Janssen_2025-02-25_16-49-20_899_DSC_09712_a9af41467c.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9503,24 +9773,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Thuốc Fugacar 500mg Janssen_2025-02-25_16-49-20_899_DSC_09712_a9af41467c.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Thuốc mỡ bôi da Agiclovir 5% Agimexpharm_2025-02-25_11-34-04_920_IMG_4181_5c3f068c81.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project-B</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project-B</BasePath>
-      <RelativePath>uploadImages/Thuốc mỡ bôi da Agiclovir 5% Agimexpharm_2025-02-25_11-34-04_920_IMG_4181_5c3f068c81.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>q06lnpngc3</Fingerprint>
-      <Integrity>RgMz51ArVsnUlQMm6Q0MktggYPAeRn+wWs7TBT1DDfE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Thuốc mỡ bôi da Agiclovir 5% Agimexpharm_2025-02-25_11-34-04_920_IMG_4181_5c3f068c81.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\assets\css\app.min.css'))">
       <SourceType>Package</SourceType>
@@ -21252,8 +21504,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t33wbsuleq</Fingerprint>
-      <Integrity>udJ/LXGdbM5gmE58t371v8/B0swP1R84CEtw1l7QnSw=</Integrity>
+      <Fingerprint>p6stknyujq</Fingerprint>
+      <Integrity>D9xuIfR5s3XyzxkGDytHXqGD+1DUo8DiBMZU2eDRx6U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\assets\js\myScriptt.js'))</OriginalItemSpec>
@@ -27102,8 +27354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n56dz4iqki</Fingerprint>
-      <Integrity>a5Pyw6IeuOFpEbr9PBgY2m64vdhN2kU2Y0X6pRAfrUY=</Integrity>
+      <Fingerprint>ujodbl516s</Fingerprint>
+      <Integrity>dlPtOEKVJUq9S6+QvgAjuFgEi6sA7TDI2W3itbs0ca4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</OriginalItemSpec>

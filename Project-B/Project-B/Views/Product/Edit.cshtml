@@ -6,7 +6,7 @@
 
 <div class="page-wrapper">
     <div class="page-content-tab">
-        <form enctype="multipart/form-data" asp-action="Edit" asp-route-id="@Model.Id">
+        <form enctype="multipart/form-data" asp-action="Edit" asp-controller="Product" asp-route-id="@Model.Id" id="edit-product-form">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12">
@@ -73,12 +73,20 @@
                                 <div class="app-divider-v dashed"></div>
                             </div>
                             <div class="app-product-section">
-                                <div class="main-title">
-                                    <h6>Product Media</h6>
-                                </div>
-                                <div class="preview">
-                                    <input accept="image/*" class="app-file-upload addproduct file-input" type="file" id="addProduct" multiple="multiple" data-allow-reorder="true" asp-for="Image">
-                                    <img id="img-preview" src="~/uploadImages/@Model.Image" />
+                                
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title mb-0">Multiple File Upload</h4>
+                                        </div><!-- end card header -->
+
+                                        <div class="card-body">
+                                            <p class="text-muted">FilePond is a JavaScript library that optimizes multiple images for faster uploads and offers a great, accessible, silky smooth user experience.</p>
+                                            <input type="file" class="filepond filepond-input-multiple" multiple name="filepond" data-allow-reorder="true" data-max-file-size="3MB" data-max-files="3" asp-for="Image">
+                                        </div>
+                                        <!-- end card body -->
+                                    </div>
+                                    <!-- end card -->
                                 </div>
                                 <div class="app-divider-v dashed"></div>
                                 <div class="main-title">
@@ -121,4 +129,69 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Register FilePond plugins
+            FilePond.registerPlugin(
+                FilePondPluginFileEncode,
+                FilePondPluginFileValidateSize,
+                FilePondPluginImageExifOrientation,
+                FilePondPluginImagePreview
+            );
+
+            // Turn file input elements into FilePond instances
+            const pond = FilePond.create(document.querySelector('.filepond-input-multiple'), {
+                allowReorder: true,
+                allowMultiple: true,
+                maxFileSize: '5MB',
+                maxFiles: 3
+            });
+
+            // Tự động thêm tệp vào FilePond
+
+ 
+            pond.addFile('@Url.Content("~/uploadImages/" + ViewBag.FileName ?? "no_image.webp")').then((file) => {
+                console.log('File added', file);
+            }).catch((error) => {
+                console.log('Error adding file', error);
+            });
+
+
+            const formEdit = document.getElementById('edit-product-form');
+            formEdit.addEventListener('submit', function (e) {
+                e.preventDefault(); // Ngăn chặn hành vi submit mặc định của form
+                console.log("In");
+                // Cập nhật giá trị của CKEditor
+                for (instance in CKEDITOR.instances) {
+                    CKEDITOR.instances[instance].updateElement();
+                }
+                // Tạo đối tượng FormData
+                const formData = new FormData(this);
+
+                // Lấy các tệp từ FilePond và thêm vào FormData
+                pond.getFiles().forEach(fileItem => {
+                    formData.append('filepond', fileItem.file);
+                });
+
+                // Gửi dữ liệu đến server bằng fetch
+                fetch(formEdit.action, {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    window.location.href = '/admin/product';
+                    // Xử lý phản hồi từ server
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    // Xử lý lỗi
+                });
+            });
+        });
+
+    </script>
+
+    
 }

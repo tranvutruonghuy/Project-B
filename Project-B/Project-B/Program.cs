@@ -94,6 +94,9 @@ namespace Project_B
                 await CreateRoles(services);
             }
 
+            var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
+            SeedData.SeedingData(context);
+
             app.Run();
             async Task CreateRoles(IServiceProvider serviceProvider)
             {

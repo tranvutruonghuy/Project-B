@@ -148,7 +148,7 @@ namespace Project_B.Controllers
                         ModelState.AddModelError("", "Role 'User' does not exist.");
                     }
                     TempData["success"] = "Register successfully!";
-                    return Redirect("/account");
+                    return Redirect("/admin/login");
                 }
                 foreach (IdentityError error in result.Errors)
                 {

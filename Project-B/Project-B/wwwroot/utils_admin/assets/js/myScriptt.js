@@ -8,7 +8,8 @@
 
     const pond = FilePond.create(document.querySelector('.filepond-input-multiple'), {
         allowReorder: true,
-        maxFileSize: '3MB',
+        allowMultiple: true,
+        maxFileSize: '5MB',
         maxFiles: 3
     });
 

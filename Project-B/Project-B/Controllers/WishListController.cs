@@ -100,6 +100,7 @@ namespace Project_B.Controllers
 
         
         [HttpGet]
+        [Route("User/Wishlist/GetCartPartial")]
         public async Task<IActionResult> GetCartPartial()
         {
             try
@@ -137,6 +138,7 @@ namespace Project_B.Controllers
 
 
         [HttpGet]
+        [Route("User/Wishlist/GetSmallCartPartial")]
         public async Task<IActionResult> GetSmallCartPartial()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -153,7 +155,7 @@ namespace Project_B.Controllers
                 return PartialView("_SmallCartPartial");
             }
             
-            return RedirectToAction("Index", "Home");
+            return PartialView("_SmallCartPartial");
         }
     }
 }

@@ -243,7 +243,7 @@ function addToCart(productId) {
 
 //refresh lai cart UI moi lan chuyen tab
 function refreshCart() {
-    $('#cart-partial').load('/WishList/GetCartPartial');
+    $('#cart-partial').load('User/WishList/GetCartPartial');
     refreshSmallCart();
 }
 function closeCart() {
@@ -253,7 +253,7 @@ function openCart() {
     $('#ltn__utilize-cart-menu').show();
 }
 function refreshSmallCart() {
-    $('.mini-cart-icon-partital').load('/WishList/GetSmallCartPartial');
+    $('.mini-cart-icon-partital').load('User/WishList/GetSmallCartPartial');
 }
 
 
@@ -322,6 +322,7 @@ function addToCart() {
             },
 
         });
+        refreshCart();
     }
    )
 

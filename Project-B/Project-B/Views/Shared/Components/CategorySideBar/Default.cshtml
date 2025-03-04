@@ -34,7 +34,7 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-3 text-center">
                                         <div class="product-img">
-                                            <a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@product.Id">
+                                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@product.Id">
                                                 <img src="~/uploadImages/@product.Image">
                                             </a>
                                         </div>
@@ -43,7 +43,7 @@
                                                 <a asp-action="Details" asp-controller="Product" asp-route-Id="@product.Id">@product.Name</a>
                                             </h2>
                                             <div class="product-price">
-                                                <span>@product.Price.ToString("#,##0")</span>
+                                                <span>@product.Price.ToString("#,##0")đ/@product.Unit</span>
                                             </div>
                                         </div>
                                     </div>
@@ -57,4 +57,5 @@
         }
     </div>
 </div>
+
 
