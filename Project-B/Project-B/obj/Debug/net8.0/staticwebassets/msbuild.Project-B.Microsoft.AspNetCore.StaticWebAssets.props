@@ -234,6 +234,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2025-01-07_21-28-23_dbf7138ac7967ec82787.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\quan_huyen.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>json/quan_huyen.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dezigne65h</Fingerprint>
+      <Integrity>S1AyQXd2bFaIf8JZCbL+Zzr+1nt6liNtBx0PKSDfdco=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\quan_huyen.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\tinh_tp.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>json/tinh_tp.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>39mrzszwh4</Fingerprint>
+      <Integrity>Z8xm0VSc4xlFA+2FzvPIxhHALCB84/Q4VIHHQ96IkU4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\tinh_tp.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\xa_phuong.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>json/xa_phuong.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wwes2vauhb</Fingerprint>
+      <Integrity>gId/+3MWaQ6/K+Qg0d9obH1uGMft3WORkS7zk9b9l4o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\json\xa_phuong.json'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9198,6 +9252,366 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\ckeditor_4.22.1_full\ckeditor\vendor\promise.js'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\FF3 - Tests.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/FF3 - Tests.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tl5fncv4ko</Fingerprint>
+      <Integrity>3x74Wq19RtmSylwec67bfUBIdoMldn+JkCkWgQu7R3Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\FF3 - Tests.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1).zip'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1).zip</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>65jpo6a0kv</Fingerprint>
+      <Integrity>Kr0vhHtXmVt10SeUo7GeIo6X4ZHNQ/VwSCPPbpHn3nE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1).zip'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\.gitignore'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/.gitignore</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>613gr3lt45</Fingerprint>
+      <Integrity>WuqQi0EZUQpzRmIux2rwXDcLWtQiC843wZa1EWEEVtI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\.gitignore'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\bower.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/bower.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p2xjbg0kv1</Fingerprint>
+      <Integrity>MVniq/kp19N2O9LENq8briqP5g3CkGZYIAdcCt7kgWQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\bower.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\css\nice-select.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/css/nice-select.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9yv4o884jf</Fingerprint>
+      <Integrity>wTKA5590EJxeOFSCLA8Mly0KVyRclbCzdi+XiL2Rj40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\css\nice-select.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\css\style.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/css/style.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>clm8akjstu</Fingerprint>
+      <Integrity>YG498rms+fRme2uY4dYxBc1o7nzTevqbdY8a3Q6SYLw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\css\style.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\dropdown.sketch'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/dropdown.sketch</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xq2uaesvv2</Fingerprint>
+      <Integrity>aSvRFWhL0eYANtlirZIBECGTey+roXPDuvmBI/vVdxs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\dropdown.sketch'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\gulpfile.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/gulpfile.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3y5lfv8sr9</Fingerprint>
+      <Integrity>W9z/AQdEq/04jzL3qTK7gD4TxPOp2i9GRQl5kWfM9CM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\gulpfile.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\index.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/index.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ue460vzttx</Fingerprint>
+      <Integrity>1qe7CLzwiG9mj3Eg0TMv9atXziuvy98DRt84fFDZR04=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\index.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\fastclick.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/js/fastclick.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a4ocje3awz</Fingerprint>
+      <Integrity>GqCMs8eqcNJo0k1Zw3TBSve9COCvjIX45PYKJlH0urU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\fastclick.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/js/jquery.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>465broz16y</Fingerprint>
+      <Integrity>7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.nice-select.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/js/jquery.nice-select.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ehwbv360za</Fingerprint>
+      <Integrity>zrt3dvs4bB/G8O9xaKoSZCRBBYlCv5HgQD7RsVZl7Tc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.nice-select.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.nice-select.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eix7w2fz8h</Fingerprint>
+      <Integrity>Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\jquery.nice-select.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\prism.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/js/prism.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zvnrvbukan</Fingerprint>
+      <Integrity>rxy6liNFHTYaPOQIQij4MDJA4C4H8sihwptme5GWHuk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\js\prism.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\package.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/package.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ssk4mp5j5e</Fingerprint>
+      <Integrity>tNMnH9pgRTfQDE7FC5m4dZdpCJuXXv67KJjy/hBi8sw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\package.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\README.md'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/README.md</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hglerzmkng</Fingerprint>
+      <Integrity>39Sdx2XmXQK9JILblYayG/50Tstf4Zn2cGO+4O8Lktc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\README.md'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\nice-select.scss'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/scss/nice-select.scss</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>40ggd24juu</Fingerprint>
+      <Integrity>/NWQVKc7W5K/F4bKSM64ow3TVMRmGM5oq4T2G615tHw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\nice-select.scss'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\style.scss'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/scss/style.scss</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jo833yob3n</Fingerprint>
+      <Integrity>Tcahs9VXXgjqm48BA87zz/sIcgbX97xFnnPqw0Eb06M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\style.scss'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\_nice-select-prefixed.scss'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/scss/_nice-select-prefixed.scss</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r0pmb5v36o</Fingerprint>
+      <Integrity>K/ci8hlcKnFTjTLVW6lGSdzQp1Dw1xGwenRT9b0f6w4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\_nice-select-prefixed.scss'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\_prism.scss'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>lib/jquery-nice-select-1.1.0 (1)/jquery-nice-select-1.1.0/scss/_prism.scss</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d2579k38xh</Fingerprint>
+      <Integrity>Zb7Er1UnUukfnsqOJWyOqQzwhfEIQCRTLpDODd7z/AA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-nice-select-1.1.0 (1)\jquery-nice-select-1.1.0\scss\_prism.scss'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>
@@ -9647,6 +10061,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Kem Nizoral Jassen 20mg-gs_2025-02-25_16-59-56_915_DSC_09303_c64524033d.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\no_image.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>uploadImages/no_image.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eygjzz2gc4</Fingerprint>
+      <Integrity>lmvB5osKn/lJ+xkfETPccc2VfNvTB+yWgyQzIl5MDNA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\no_image.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_0_2025-03-04_16-45-25_583_Dầu Dừa Tươi Raw Virgin Coconut Oil Coboté 50ml_2025-03-04_15-04-37_249_Dau_dua.webp'))">
       <SourceType>Package</SourceType>
@@ -27354,8 +27786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ujodbl516s</Fingerprint>
-      <Integrity>dlPtOEKVJUq9S6+QvgAjuFgEi6sA7TDI2W3itbs0ca4=</Integrity>
+      <Fingerprint>j4f03p2mmj</Fingerprint>
+      <Integrity>k9PQzHORW4lyjnt/tYTgLRZSyV9cADnKKDpvWn8wpvc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_admin\js\myScript.js'))</OriginalItemSpec>
@@ -29141,6 +29573,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_client\css\font-icons.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_client\css\myStyle.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Project-B</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Project-B</BasePath>
+      <RelativePath>utils_client/css/myStyle.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jpkoizxm7e</Fingerprint>
+      <Integrity>KTNT1kh3bOCl89NTich3+kKx/3KQH9075WNDpG/aVW8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_client\css\myStyle.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utils_client\css\plugins.css'))">
       <SourceType>Package</SourceType>

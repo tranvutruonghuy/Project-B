@@ -94,13 +94,14 @@ namespace Project_B.Controllers
 
                     if (roles.Contains("User"))
                     {
+                        await _userManager.AddToRoleAsync(existingUser, "User");
                         Console.WriteLine("Welcome!");
                         await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
                         return RedirectToAction("Index", "Home");
                     }
                     else
                     {
-                        ModelState.AddModelError("", "User does not have the required role.");
+                        ModelState.AddModelError("", "Sorry! Admin cannot loggin into user pages.");
                         await _signInManager.SignOutAsync(); // Đăng xuất nếu không có vai trò User
                         return View(user);
                     }
@@ -141,6 +142,7 @@ namespace Project_B.Controllers
                     var roleExists = await _roleManager.RoleExistsAsync("Admin");
                     if (roleExists)
                     {
+
                         await _userManager.AddToRoleAsync(newUser, "Admin");
                     }
                     else
@@ -188,6 +190,7 @@ namespace Project_B.Controllers
 
                     if (roles.Contains("Admin"))
                     {
+                        await _userManager.AddToRoleAsync(existingUser, "Admin");
                         Console.WriteLine("Welcome!");
                         await _signInManager.SignInWithClaimsAsync(existingUser, false, claims);
                         return RedirectToAction("ProductList", "Product");

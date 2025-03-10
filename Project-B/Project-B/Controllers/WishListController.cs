@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Project_B.Data;
 using Project_B.Models;
 using Project_B.Models.ViewModel;
@@ -37,6 +38,12 @@ namespace Project_B.Controllers
                 {
                     var userId = user.Id;
                     var product = await _context.Products.FindAsync(productId);
+                    var wishlistItemExist = await _context.WishLists.FirstOrDefaultAsync(w => w.ProductId == productId && w.UserId == userId);
+                    if (wishlistItemExist != null) {
+                        wishlistItemExist.Quantity += quantity;
+                        await _context.SaveChangesAsync();
+                        return RedirectToAction("Index", "Home");
+                    }
                     if (product != null)
                     {
                         var newWishListItem = new WishListModel
@@ -77,28 +84,51 @@ namespace Project_B.Controllers
             }
         }
 
-        // GET: WishListController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
 
         // POST: WishListController/Delete/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
+        
+        public async Task<ActionResult> Delete(int id)
+        {        
+
             try
             {
-                return RedirectToAction(nameof(Index));
+                var wishlistItem = await _context.WishLists
+                    .FirstOrDefaultAsync(w => w.Id == id);
+
+                if (wishlistItem != null)
+                {
+                    _context.WishLists.Remove(wishlistItem);
+                    await _context.SaveChangesAsync();
+
+                    return Json(new
+                    {
+                        success = true,
+                        message = "Item deleted successfully."
+                    });
+                }
+
+                return Json(new
+                {
+                    success = false,
+                    message = "Item not found."
+                });
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                // Log the error (optional)
+                Console.WriteLine(ex.Message);
+
+                return Json(new
+                {
+                    success = false,
+                    message = "An error occurred while deleting the item."
+                });
             }
         }
 
-        
+
+
         [HttpGet]
         [Route("User/Wishlist/GetCartPartial")]
         public async Task<IActionResult> GetCartPartial()
@@ -115,11 +145,12 @@ namespace Project_B.Controllers
                     {
                         var findProduct = await _context.Products.FindAsync(cartItem.ProductId);
                         CartItemViewModel cartItem1 = new CartItemViewModel();
+                        cartItem1.WishlistId = cartItem.Id;
                         cartItem1.Product = findProduct;
                         cartItem1.Quantity = cartItem.Quantity;
                         products.Add(cartItem1);
                     }
-
+                   
                     ViewBag.CartItems = products;
 
                     return PartialView("_CartPartial");
@@ -148,7 +179,7 @@ namespace Project_B.Controllers
                 var cart = _context.WishLists.Where(w => w.UserId == userId).ToList();
                 var total = 0;
                 foreach (var cartItem in cart) {
-                    total += (int)cartItem.Price;
+                    total += (int)cartItem.Price*cartItem.Quantity;
                 }
                 ViewBag.CartItems = cart;
                 ViewBag.GrandTotal = total;

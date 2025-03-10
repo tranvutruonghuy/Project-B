@@ -45,18 +45,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    //loadProvince();
-    //$('#provinceSelect').on('change', function () {
-    //    const parentId = this.value;
+    loadProvince();
+    $('#provinceSelect').on('change', function () {
+        const parentId = this.value;
 
-    //    loadDistrict(parentId);
-    //});
-    //$('#districtSelect').on('change', function () {
-    //    const parentId = this.value;
-    //    loadWard(parentId);
-    //});
-    //$('select').niceSelect();
-    //console.log('DOM đã sẵn sàng!');
+        loadDistrict(parentId);
+    });
+    $('#districtSelect').on('change', function () {
+        const parentId = this.value;
+        loadWard(parentId);
+    });
+    $('select').niceSelect();
+    console.log('DOM đã sẵn sàng!');
 
 
 });
@@ -243,7 +243,7 @@ function addToCart(productId) {
 
 //refresh lai cart UI moi lan chuyen tab
 function refreshCart() {
-    $('#cart-partial').load('User/WishList/GetCartPartial');
+    $('#cart-partial').load('/User/WishList/GetCartPartial');
     refreshSmallCart();
 }
 function closeCart() {
@@ -253,7 +253,8 @@ function openCart() {
     $('#ltn__utilize-cart-menu').show();
 }
 function refreshSmallCart() {
-    $('.mini-cart-icon-partital').load('User/WishList/GetSmallCartPartial');
+    console.log(window.location.origin);
+    $('.mini-cart-icon-partital').load('/User/WishList/GetSmallCartPartial');
 }
 
 
@@ -294,7 +295,7 @@ function addToCart() {
     console.log(productId);
     var quantityInput = document.querySelector('#quantity-' + productId);
     var quantity = quantityInput.value;
-    var url = '/WishList/Create?productId=' + productId + '&quantity=' + quantity;
+    var url = window.location.origin + '/WishList/Create?productId=' + productId + '&quantity=' + quantity;
     $.ajax({
         url: url,
         type: 'POST',
@@ -315,7 +316,7 @@ function addToCart() {
 
     $(document).ready(function () {
         $.ajax({
-            url: 'Product/LoadCategoryMenu',
+            url: '/Product/LoadCategoryMenu',
             type: 'GET',
             success: function (data) {
                 $('#category-menu').html(data);
@@ -324,5 +325,31 @@ function addToCart() {
         });
         refreshCart();
     }
-   )
+)
+function deleteItemFromCart(productID, wishlistID) {
+    if (confirm("Do you want to delete this product from your cart?")) {
+        
+        console.log("User confirmed the action.");
+        $.ajax({
+            url: '/WishList/delete/' + wishlistID,
+            type: 'POST',
+            beforeSend: function () {
+                console.log("Deleting item...");
+            },
+            success: function (response) {
+                console.log("Success:", response);
+                alert("Item deleted successfully.");
+                refreshCart();
+            },
+            error: function (xhr, status, error) {
+                console.error("Error:", error);
+                alert("An error occurred.");
+            }
+        });
+
+    } else {
+        
+        console.log("User canceled the action.");
+    }
+}
 

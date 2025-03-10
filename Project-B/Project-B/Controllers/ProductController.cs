@@ -280,6 +280,7 @@ namespace Project_B.Controllers
         // Get: Product/ProductList
         [Route("Admin/Product")]
         [Authorize(Roles = "Admin")]
+        
         [HttpGet]
         public IActionResult ProductList()
         {

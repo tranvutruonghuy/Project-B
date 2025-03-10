@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project_B.Data;
@@ -6,6 +7,7 @@ using Project_B.Models;
 
 namespace Project_B.Controllers
 {
+    [Authorize(Roles = "User")]
     public class CheckoutController : Controller
     {
         private readonly UserManager<AppUserModel> _userManager;
