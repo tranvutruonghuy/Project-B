@@ -57,6 +57,22 @@
       "PackagePath": "staticwebassets\\img\\2025-01-07_21-28-23_dbf7138ac7967ec82787.jpg"
     },
     {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\json\\quan_huyen.json",
+      "PackagePath": "staticwebassets\\json\\quan_huyen.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\json\\tinh_tp.json",
+      "PackagePath": "staticwebassets\\json\\tinh_tp.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\json\\xa_phuong.json",
+      "PackagePath": "staticwebassets\\json\\xa_phuong.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\FF3 - Tests.pdf",
+      "PackagePath": "staticwebassets\\lib\\FF3 - Tests.pdf"
+    },
+    {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -2049,6 +2065,82 @@
       "PackagePath": "staticwebassets\\lib\\ckeditor_4.22.1_full\\ckeditor\\vendor\\promise.js"
     },
     {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1).zip",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1).zip"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\.gitignore"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\README.md"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\bower.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\css\\style.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\css\\style.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\dropdown.sketch",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\dropdown.sketch"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\gulpfile.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\gulpfile.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\index.html"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\fastclick.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\fastclick.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.nice-select.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.nice-select.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\prism.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\js\\prism.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\package.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\_nice-select-prefixed.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\_nice-select-prefixed.scss"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\_prism.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\_prism.scss"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\nice-select.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\nice-select.scss"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\lib\\jquery-nice-select-1.1.0 (1)\\jquery-nice-select-1.1.0\\scss\\style.scss"
+    },
+    {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -2171,6 +2263,10 @@
     {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\aaaa_2025-02-18_11-48-07_293_Hinh đẹp.jpg",
       "PackagePath": "staticwebassets\\uploadImages\\aaaa_2025-02-18_11-48-07_293_Hinh đẹp.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\uploadImages\\no_image.webp",
+      "PackagePath": "staticwebassets\\uploadImages\\no_image.webp"
     },
     {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_admin\\assets\\css\\app.min.css",
@@ -6475,6 +6571,10 @@
     {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_client\\css\\font-icons.css",
       "PackagePath": "staticwebassets\\utils_client\\css\\font-icons.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_client\\css\\myStyle.css",
+      "PackagePath": "staticwebassets\\utils_client\\css\\myStyle.css"
     },
     {
       "Id": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_client\\css\\plugins.css",

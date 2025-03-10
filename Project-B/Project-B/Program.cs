@@ -38,10 +38,18 @@ namespace Project_B
                 options.User.RequireUniqueEmail = true;
             });
 
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminPolicy", policy =>
+                    policy.RequireRole("Admin"));
+                options.AddPolicy("UserPolicy", policy =>
+                    policy.RequireRole("User"));
+            });
+
             builder.Services.ConfigureApplicationCookie(options =>
             {
-                options.LoginPath = "/admin/login";
-                options.AccessDeniedPath = "/";
+                options.AccessDeniedPath = "/home/accessdenied";
+                
                 options.Events = new CookieAuthenticationEvents
                 {
                     OnRedirectToLogin = context =>
@@ -60,6 +68,7 @@ namespace Project_B
                             context.Response.Redirect(context.RedirectUri);
                         }
                         return Task.CompletedTask;
+                        
                     }
                 };
             });
@@ -80,6 +89,7 @@ namespace Project_B
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseStatusCodePagesWithReExecute("/error/{0}");
 
             app.UseAuthentication();
             app.UseAuthorization();

@@ -4,5 +4,7 @@
     {
         public int Quantity { get; set; }
         public ProductModel Product { get; set; }
+
+        public int WishlistId { get; set; }
     }
 }

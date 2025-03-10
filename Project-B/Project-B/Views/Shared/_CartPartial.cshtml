@@ -9,7 +9,7 @@
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
                         <a href="#"><img src="~/uploadImages/@item.Product.Image" alt="Image"></a>
-                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                        <span class="mini-cart-item-delete" onclick="deleteItemFromCart(@item.Product.Id, @item.WishlistId)"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
                         <h6><a href="#">@item.Product.Name</a></h6>
