@@ -9,3 +9,10 @@
 .modal-content {
     border-radius: 15px;
 }
+.swal2-container {
+    z-index: 9999 !important; /* Đảm bảo cao hơn mọi thành phần khác */
+}
+
+.swal2-backdrop {
+    z-index: 9998 !important; /* Overlay phải thấp hơn alert */
+}

@@ -36,6 +36,8 @@ namespace Project_B.Models
         [StringLength(255)]
         public string? Image { get; set; }
 
+        public int Status { get; set; }
+
         public virtual CategoryModel? Category { get; set; }
     }
 }

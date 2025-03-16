@@ -39,19 +39,26 @@
                         <div class="col-md-6">
                             <div class="ltn__shop-details-img-gallery">
                                 <div class="ltn__shop-details-large-img">
-                                    <div class="single-large-img">
+                                    @foreach(var img in ViewBag.Images){
+                                        <div class="single-large-img">
 
-                                        <img src="~/uploadImages/@product.Image" alt="~/uploadImages/@product.Image">
+                                            <img src="~/uploadImages/@img" alt="~/uploadImages/@img">
 
-                                    </div>
+                                        </div>
+                                    }
+                                    
 
                                 </div>
-                                @* <div class="ltn__shop-details-small-img slick-arrow-2"> *@
-                                @*     <div class="single-small-img"> *@
-                                @*         <img src="~/uploadImages/@product.Image" alt="Image"> *@
-                                @*     </div> *@
+                                <div class="ltn__shop-details-small-img slick-arrow-2"> 
+                                    @foreach (var img in ViewBag.Images)
+                                    {
+                                        <div class="single-small-img">
+                                            <img src="~/uploadImages/@img" alt="Image">
+                                        </div>
+                                    }
+                                    
 
-                                @* </div> *@
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
