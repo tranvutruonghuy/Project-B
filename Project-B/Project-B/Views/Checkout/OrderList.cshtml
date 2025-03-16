@@ -13,8 +13,6 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-title-box">
-
-
                         <h4 class="page-title">Order List</h4>
                     </div><!--end page-title-box-->
                 </div><!--end col-->
@@ -28,32 +26,45 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <div class="col-12">
-                                <a class="btn btn-outline-primary btn-sm px-4" asp-action="Create" asp-controller="Product">+ Add New Product</a>
-                            </div>
+                            
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="product-list-table">
                                     <thead>
                                         <tr>
-                                            @* <th>Product Name</th> *@
-                                            @* <th>Category</th> *@
-                                            @* <th>In stock</th> *@
+                                            <th>Order ID</th> 
+                                            <th>Client's name</th>
+                                            <th>Client's mail</th>
                                             <th>TotalValue (vnd)</th>
                                             <th>OrderDate</th>
-                                            <th>PaymentMethod</th>
+                                            <th>Payment Method</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <!--do du lieu-->
-                                        @foreach (var item in ViewBag.OrderList)
+                                        @foreach (var item in ViewBag.OrdersList)
                                         {
                                             <tr>
-
-                                                <td>@item.TotalValue</td>
-                                                <td>@item.OrderDate.ToString("#,##0")</td>
-                                                <td>@item.PaymentMethod</td>
-
-                                                
+                                                <td>@item.Order.Id</td>
+                                                <th>@item.User.FullName</th>
+                                                <th>@item.User.Email</th>
+                                                <td>@item.Order.TotalValue.ToString("##,###")</td>
+                                                <td>@item.Order.OrderDate</td>
+                                                <td>@item.Order.PaymentMethod</td>
+                                                @if (item.Order.Status == 0)
+                                                {
+                                                    <td>
+                                                        <span class="badge bg-warning">Waiting</span>
+                                                    </td>
+                                                } else {
+                                                    <td>
+                                                        <span class="badge bg-success">Confirmed</span>
+                                                    </td>
+                                                }
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-light" onclick="seeDetailsOrder(@item.Order.Id)">Details</button>
+                                                </td>
                                             </tr>
                                         }
                                     </tbody>
@@ -117,5 +128,55 @@
         $(document).ready(function() {
             $('.table').DataTable();
         });
+        function seeDetailsOrder(orderId){
+            $.ajax({
+                    url: '/Checkout/GetOrderDetails', 
+                    type: 'GET',
+                    data: { id: orderId },
+                    success: function(data) {
+                        console.log("Order Details:", data);
+                        let indexedDB = 1;
+                        let tableHtml = `
+                            <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 16px; font-family: Arial, sans-serif; text-align: center;">
+                                <thead>
+                                    <tr style="background-color: #405189; color: #ffffff; font-weight: bold;">
+                                        <th style="padding: 12px 15px; border: 1px solid #dddddd;">No</th>
+                                        <th style="padding: 12px 15px; border: 1px solid #dddddd;">Product Name</th>
+                                        <th style="padding: 12px 15px; border: 1px solid #dddddd;">Quantity</th>
+                                        <th style="padding: 12px 15px; border: 1px solid #dddddd;">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                        `;
+                        data.forEach(function(item) {
+                            tableHtml += `
+                                <tr style="background-color: #f3f3f3;">
+                                    <td style="padding: 12px 15px; border: 1px solid #dddddd; word-wrap: break-word;">${indexedDB}</td>
+                                    <td style="padding: 12px 15px; border: 1px solid #dddddd; word-wrap: break-word;">${item.name}</td>
+                                    <td style="padding: 12px 15px; border: 1px solid #dddddd; word-wrap: break-word;">${item.quantity}</td>
+                                    <td style="padding: 12px 15px; border: 1px solid #dddddd; word-wrap: break-word;">${item.price}vnd</td>
+                                </tr>
+                            `;
+                            indexedDB++;
+                        });
+                        tableHtml += `</tbody></table>`;
+
+                        // Hiển thị SweetAlert với bảng
+                        Swal.fire({
+                            title: 'Order Details',
+                            html: tableHtml, // Nội dung bảng
+                            width: '1000px',
+                            confirmButtonText: 'Close'
+                        });
+                    },
+                    error: function() {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'Unable to fetch order details!'
+                        });
+                    }
+                });
+        }
     </script>
 }

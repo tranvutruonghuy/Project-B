@@ -117,9 +117,35 @@ namespace Project_B.Controllers
         [HttpGet]
         public async Task<IActionResult> OrderList()
         {
-            ViewBag.OrderList = await _context.Orders.ToListAsync();
-            
+            var orders = await _context.Orders.ToListAsync();
+            List<UserOrderViewModel> ordersList = new List<UserOrderViewModel>();
+
+            foreach (var order in orders) 
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(w => w.Id == order.ClientId);
+                UserOrderViewModel each = new UserOrderViewModel
+                {
+                    Order = order,
+                    User = user
+                };
+                ordersList.Add(each);
+            }
+            ViewBag.OrdersList = ordersList;
             return View();
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetOrderDetails(int id)
+        {
+            var orderDetails = _context.OrderDetails
+                             .Where(od => od.OrderId == id)
+                             .Select(od => new {
+                                 od.Product.Name,
+                                 od.Quantity,
+                                 od.Price
+                             })
+                             .ToList();
+            return Json(orderDetails);
+
         }
 
     }

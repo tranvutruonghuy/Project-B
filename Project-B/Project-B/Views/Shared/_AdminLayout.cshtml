@@ -37,7 +37,8 @@
 
     <!-- dropzone css -->
     <link rel="stylesheet" href="~/utils_admin/assets/libs/dropzone/dropzone.css" type="text/css" />
-
+    <!-- Sweet Alert css-->
+    <link href="~/utils_admin/assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <!-- Filepond css -->
     <link rel="stylesheet" href="~/utils_admin/assets/libs/filepond/filepond.min.css" type="text/css" />
     <link rel="stylesheet" href="~/utils_admin/assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css">
@@ -337,7 +338,9 @@
                                     <li class="nav-item">
                                         <a asp-action="Index" asp-controller="Category" class="nav-link" data-key="t-analytics"> All Category </a>
                                     </li>
-
+                                    <li class="nav-item">
+                                        <a asp-action="OrderList" asp-controller="Checkout" class="nav-link" data-key="t-analytics"> All Orders </a>
+                                    </li>
                                 </ul>
                             </div>
                         </li> <!-- end Dashboard Menu -->
@@ -444,6 +447,11 @@
 
     <!-- Dashboard init -->
     <script src="~/utils_admin/assets/js/pages/dashboard-ecommerce.init.js"></script>
+    <!-- Sweet Alerts js -->
+    <script src="~/utils_admin/assets/libs/sweetalert2/sweetalert2.min.js"></script>
+
+    <!-- Sweet alert init js-->
+    <script src="~/utils_admin/assets/js/pages/sweetalerts.init.js"></script>
 
     <!-- App js -->
     <script src="~/utils_admin/assets/js/app.js"></script>
