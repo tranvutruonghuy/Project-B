@@ -148,12 +148,16 @@
             });
 
             // Tự động thêm tệp vào FilePond
+            const fileNames = @Html.Raw(Json.Serialize(ViewBag.FilesName ?? new List<string>()));
+            const uploadPath = '@Url.Content("~/uploadImages/")';
 
- 
-            pond.addFile('@Url.Content("~/uploadImages/" + ViewBag.FileName ?? "no_image.webp")').then((file) => {
-                console.log('File added', file);
-            }).catch((error) => {
-                console.log('Error adding file', error);
+            // Automatically add each file to FilePond
+            fileNames.forEach(fileName => {
+                pond.addFile(`${uploadPath}${fileName}`).then(file => {
+                    console.log('File added', file);
+                }).catch(error => {
+                    console.log('Error adding file', error);
+                });
             });
 
 

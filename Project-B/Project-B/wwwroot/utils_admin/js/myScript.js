@@ -10,22 +10,7 @@
 
 //tao preview img khi add product
 document.addEventListener('DOMContentLoaded', function () {
-    var addProductInput = document.getElementById('addProduct');
-    if (addProductInput) {
-        addProductInput.addEventListener('change', function (event) {
-            var input = event.target;
-            var reader = new FileReader();
-            reader.onload = function () {
-                var dataURL = reader.result;
-                var imagePreview = document.getElementById('img-preview');
-                imagePreview.src = dataURL;
-                imagePreview.style.display = 'block';
-            };
-            if (input.files && input.files[0]) {
-                reader.readAsDataURL(input.files[0]);
-            }
-        });
-    };
+    
 
     var links = document.querySelectorAll(".tab-link");
     links.forEach(function (link) {
@@ -327,29 +312,118 @@ function addToCart() {
     }
 )
 function deleteItemFromCart(productID, wishlistID) {
-    if (confirm("Do you want to delete this product from your cart?")) {
-        
-        console.log("User confirmed the action.");
-        $.ajax({
-            url: '/WishList/delete/' + wishlistID,
-            type: 'POST',
-            beforeSend: function () {
-                console.log("Deleting item...");
-            },
-            success: function (response) {
-                console.log("Success:", response);
-                alert("Item deleted successfully.");
-                refreshCart();
-            },
-            error: function (xhr, status, error) {
-                console.error("Error:", error);
-                alert("An error occurred.");
-            }
-        });
+    
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "Do you want to delete this product from your cart?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'Cancel'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            console.log("User confirmed the action.");
 
-    } else {
-        
-        console.log("User canceled the action.");
-    }
+            $.ajax({
+                url: '/WishList/delete/' + wishlistID,
+                type: 'POST',
+                beforeSend: function () {
+                    console.log("Deleting item...");
+                },
+                success: function (response) {
+                    console.log("Success:", response);
+                    Swal.fire(
+                        'Deleted!',
+                        'Item deleted successfully.',
+                        'success'
+                    );
+                    refreshCart();
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error:", error);
+                    Swal.fire(
+                        'Error!',
+                        'An error occurred while deleting the item.',
+                        'error'
+                    );
+                }
+            });
+        } else {
+            console.log("User canceled the action.");
+        }
+    });
+
+}
+
+function submitOrder() {
+    var provinceSelect = document.getElementById('provinceSelect');
+    var province = provinceSelect.options[provinceSelect.selectedIndex].textContent;
+    console.log(province);
+    var wardSelect = document.getElementById('wardSelect');
+    var ward = wardSelect.options[wardSelect.selectedIndex].textContent;
+    var districtSelect = document.getElementById('districtSelect');
+    var district = districtSelect.options[districtSelect.selectedIndex].textContent;
+    var street = document.getElementById('checkout-street').value;
+    var note = document.getElementById('checkout-note').value;
+    var paymentMethod = document.querySelector('input[name="PaymentMethod"]:checked').value;
+
+    var formData = {
+        Ward: ward,
+        District: district,
+        Province: province,
+        Street: street,
+        Note: note,
+        PaymentMethod: paymentMethod
+    };
+
+    $.ajax({
+        url: '/Checkout/ProceedCheckout',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(formData),
+        statusCode: {
+            201: function () {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Failed to Place Order',
+                    text: 'Unfortunately, your order could not be processed. Please try again later.'
+                });
+            }
+        },
+        success: function (res) {
+            if (res.success) {
+           
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Thành công!',
+                    text: res.message 
+                });
+            } else {
+                // Nếu success = false
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lỗi!',
+                    text: res.message 
+                });
+            }
+        }
+,
+        error: function (xhr, status, error) {
+            if (xhr.status === 400) {
+                // Handle Bad Request error
+                $('#myModal .modal-body').text(xhr.responseJSON.message);
+                $('#myModal').modal('show');
+            } else {
+                // Handle other errors
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops!',
+                    text: 'Something went wrong. Please try again later.'
+                });
+            }
+        }
+    });
 }
 

@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Project_B.Data;
 using Project_B.Models;
 using Project_B.Models.ViewModel;
 using System.Security.Claims;
@@ -14,13 +16,15 @@ namespace Project_B.Controllers
         private SignInManager<AppUserModel> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailSender _emailSender;
+        private readonly DataContext _context;
 
-        public AccountController(UserManager<AppUserModel> userManager, SignInManager<AppUserModel> signInManager, RoleManager<IdentityRole> roleManager, IEmailSender emailSender)
+        public AccountController(UserManager<AppUserModel> userManager, SignInManager<AppUserModel> signInManager, RoleManager<IdentityRole> roleManager, IEmailSender emailSender, DataContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _emailSender = emailSender;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -279,6 +283,17 @@ namespace Project_B.Controllers
         [HttpGet]
         public IActionResult ResetPasswordConfirmation()
         {
+            return View();
+        }
+
+        [HttpGet]
+        [Route("/user/account")]
+        [Authorize(Roles = "User")]
+        public async Task<IActionResult> AccountDetails()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var orders = _context.Orders.Where(w => w.ClientId == user.Id).ToList();
+            ViewBag.Orders = orders;
             return View();
         }
     }

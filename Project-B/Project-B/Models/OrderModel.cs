@@ -8,11 +8,8 @@ namespace Project_B.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [ForeignKey("ClientModel")]
-        public int ClientId { get; set; }
-        [ForeignKey("AddressModel")]
-        [StringLength(255)]
-        public int AddressId { get; set; }
+        [ForeignKey("AppUserModel")]
+        public String ClientId { get; set; }
         [Required]
         public DateTime OrderDate { get; set; }
         [Required]
@@ -23,9 +20,10 @@ namespace Project_B.Models
         [StringLength(20)]
         public string PaymentMethod { get; set; }
         public int Status { get; set; }
-        [StringLength(20)]
+
+        public int IsCancel {  get; set; }
+
         // Navigation properties
         public virtual AppUserModel Client { get; set; }
-        public virtual AddressModel Address { get; set; }
     }
 }

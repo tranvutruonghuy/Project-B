@@ -40,6 +40,7 @@
                                             <th>In stock</th>
                                             <th>Price (vnd)</th>
                                             <th>Unit</th>
+                                            <th>Status</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -65,10 +66,18 @@
                                                 <td>@item.InStock</td>
                                                 <td>@item.Price.ToString("#,##0")</td>
                                                 <td>@item.Unit</td>
-
+                                                @if(item.InStock > 0 && item.Status == 1){
+                                                    <td>
+                                                        <span class="badge bg-success-subtle text-success">Active</span>
+                                                    </td>
+                                                } else {
+                                                    <td>
+                                                        <span class="badge bg-danger-subtle text-danger">Disable</span>
+                                                    </td>
+                                                }
                                                 <td>
                                                     <a asp-action="Edit" asp-controller="Product" asp-route-id="@item.Id" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
-                                                    <a asp-action="Delete" asp-controller="Product" asp-route-id="@item.Id"><i class="las la-trash-alt text-secondary font-16"></i></a>
+                                                    <a href="javascript:deleteProduct(@item.Id)"><i class="las la-trash-alt text-secondary font-16"></i></a>
                                                 </td>
                                             </tr>
                                         }
@@ -133,5 +142,29 @@
         $(document).ready(function() {
             $('.table').DataTable();
         });
+        function deleteProduct(id){
+             Swal.fire({
+                    title: 'Are you sure?',
+                    text: 'Do you really want to cancel this product?',
+                    icon: 'question',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes',
+                    cancelButtonText: 'No',
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: `/Product/SetStatusProduct/${id}`,
+                            type: 'POST',
+                            success: function(response) {
+                                Swal.fire('Delete!', 'The order has been delete successfully.', 'success');
+                            },
+                            error: function(xhr, status, error) {
+                                console.error('Error:', error);
+                                Swal.fire('Error!', 'There was an issue cancelling the order. Please try again.', 'error');
+                            }
+                        });
+                    }
+                });
+        }
     </script>
 }

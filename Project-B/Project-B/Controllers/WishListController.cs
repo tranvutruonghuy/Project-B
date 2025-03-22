@@ -179,7 +179,7 @@ namespace Project_B.Controllers
                 var cart = _context.WishLists.Where(w => w.UserId == userId).ToList();
                 var total = 0;
                 foreach (var cartItem in cart) {
-                    total += (int)cartItem.Price*cartItem.Quantity;
+                    total += (int)cartItem.Price;
                 }
                 ViewBag.CartItems = cart;
                 ViewBag.GrandTotal = total;

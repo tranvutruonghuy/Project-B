@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using Project_B.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project_B.Models
 {
@@ -9,9 +8,8 @@ namespace Project_B.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Title { get; set; }
-        [ForeignKey("ClientModel")]
-        public int ClientId { get; set; }
+        [ForeignKey("OrderModel")]
+        public int OrderId { get; set; }
         [Required]
         [StringLength(255)]
         public string Province { get; set; }
@@ -24,8 +22,8 @@ namespace Project_B.Models
         [Required]
         [StringLength(255)]
         public string Street { get; set; }
-        public bool Default { get; set; }
-        // Navigation property
-        public virtual AppUserModel Client { get; set; }
+
+        // Navigation properties
+        public virtual OrderModel Order { get; set; }
     }
 }
