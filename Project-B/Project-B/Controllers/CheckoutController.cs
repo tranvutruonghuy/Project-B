@@ -57,9 +57,13 @@ namespace Project_B.Controllers
                         if(productInWishlist.InStock < item.Quantity)
                         {
                             return Json(new { success = false, message = $"Item {productInWishlist.Name} is out of stock." });
+                        } else
+                        {
+                            productInWishlist.InStock -= item.Quantity;
+                            _context.SaveChanges();
                         }
 
-                        totalValue += (item.Price * item.Quantity);
+                        totalValue += item.Price;
                     }
                     string currentDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.ffffff");
 
@@ -145,6 +149,46 @@ namespace Project_B.Controllers
                              })
                              .ToList();
             return Json(orderDetails);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CancelOrder(int id)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(w => w.Id == id);
+            if (order != null) 
+            {
+                if (order.IsCancel == 1)
+                {
+                    return BadRequest(new { message = "This order has already been canceled." });
+                }
+                if(order.Status == 1)
+                {
+                    return BadRequest(new { message = "This order has already been confirm. The cancel form has been send to admin. Please wait for the response of admin" });
+                }
+                order.IsCancel = 1; 
+                await _context.SaveChangesAsync(); 
+                return Ok(new { message = "Order successfully canceled." });
+            }
+            return NotFound(new { message = "Order not found." });
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ConfirmOrder(int id)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(w => w.Id == id);
+            if (order != null)
+            {
+                if(order.IsCancel == 1)
+                {
+                    return BadRequest(new { message = "This order has already been canceled." });
+                }
+                order.Status = 1;
+                await _context.SaveChangesAsync();
+                return Ok(new { message = "Order successfully canceled." });
+            }
+            return NotFound(new { message = "Order not found." });
 
         }
 

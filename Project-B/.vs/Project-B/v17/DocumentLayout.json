@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\news\\newsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\news\\newsdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\account\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\account\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\viewmodel\\userorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\viewmodel\\userorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\wwwroot\\utils_client\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\wwwroot\\utils_client\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +46,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserOrderViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "RelativeDocumentMoniker": "Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "RelativeToolTip": "Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T08:47:45.569Z",
+              "DocumentIndex": 0,
+              "Title": "NewsDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\News\\NewsDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\News\\NewsDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\News\\NewsDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\News\\NewsDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:37:45.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "myStyle.css",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_client\\css\\myStyle.css",
+              "RelativeDocumentMoniker": "Project-B\\wwwroot\\utils_client\\css\\myStyle.css",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\wwwroot\\utils_client\\css\\myStyle.css",
+              "RelativeToolTip": "Project-B\\wwwroot\\utils_client\\css\\myStyle.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T01:25:30.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
-              "RelativeDocumentMoniker": "Project-B\\Models\\OrderModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
-              "RelativeToolTip": "Project-B\\Models\\OrderModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T04:07:28.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderList.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
-              "RelativeDocumentMoniker": "Project-B\\Views\\Checkout\\OrderList.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
-              "RelativeToolTip": "Project-B\\Views\\Checkout\\OrderList.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAuwJwAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T04:04:14.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CheckoutController.cs",
               "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "Project-B\\Controllers\\CheckoutController.cs",
               "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\CheckoutController.cs",
               "RelativeToolTip": "Project-B\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAqwI0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKYAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:44:33.727Z",
+              "WhenOpened": "2025-03-22T01:16:34.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:08:43.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAwMcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:07:23.182Z",
               "EditorCaption": ""
             }
           ]

@@ -10314,24 +10314,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_60_2025-03-13_20-43-14_962_Agilcovir.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_63_2025-03-13_20-41-11_578_Dau_dua.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project-B</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project-B</BasePath>
-      <RelativePath>uploadImages/Product_63_2025-03-13_20-41-11_578_Dau_dua.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rm6w5zo0nr</Fingerprint>
-      <Integrity>k/rXIGKU7I5AWImiCeJKOHGeZf40EUMmJJsuIzEQWmM=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_63_2025-03-13_20-41-11_578_Dau_dua.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product_64_2025-03-13_20-41-40_822_decumar_advance.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Project-B</SourceId>

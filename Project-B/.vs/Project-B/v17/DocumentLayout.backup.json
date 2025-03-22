@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\checkout\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\models\\viewmodel\\userorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\models\\viewmodel\\userorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|d:\\github\\doanb\\project-b\\project-b\\project-b\\views\\account\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD30487F-2FEB-4987-BB31-950A7C9867BD}|Project-B\\Project-B.csproj|solutionrelative:project-b\\views\\account\\accountdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,53 +43,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserOrderViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "RelativeDocumentMoniker": "Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "RelativeToolTip": "Project-B\\Models\\ViewModel\\UserOrderViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T08:47:45.569Z",
+              "Title": "AccountDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Account\\AccountDetails.cshtml",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAwPUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:08:43.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
-              "RelativeDocumentMoniker": "Project-B\\Models\\OrderModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Models\\OrderModel.cs",
-              "RelativeToolTip": "Project-B\\Models\\OrderModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T04:07:28.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "OrderList.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
               "RelativeDocumentMoniker": "Project-B\\Views\\Checkout\\OrderList.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml*",
-              "RelativeToolTip": "Project-B\\Views\\Checkout\\OrderList.cshtml*",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAuwJUAAAAqAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Checkout\\OrderList.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T04:04:14.8Z",
+              "WhenOpened": "2025-03-22T01:07:23.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "Project-B\\Controllers\\CheckoutController.cs",
-              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "Project-B\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAqwI0AAAAhAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Project-B\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Project-B\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAQwHIBAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:44:33.727Z",
+              "WhenOpened": "2025-03-22T01:03:30.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Product\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "Project-B\\Views\\Product\\ProductList.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAnB\\Project-B\\Project-B\\Project-B\\Views\\Product\\ProductList.cshtml",
+              "RelativeToolTip": "Project-B\\Views\\Product\\ProductList.cshtml",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAwKUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T10:53:31.677Z",
               "EditorCaption": ""
             }
           ]

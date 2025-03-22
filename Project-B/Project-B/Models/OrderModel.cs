@@ -20,7 +20,9 @@ namespace Project_B.Models
         [StringLength(20)]
         public string PaymentMethod { get; set; }
         public int Status { get; set; }
-        
+
+        public int IsCancel {  get; set; }
+
         // Navigation properties
         public virtual AppUserModel Client { get; set; }
     }

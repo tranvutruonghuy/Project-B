@@ -27,7 +27,7 @@ namespace Project_B.Controllers
         // GET: Product
         public async Task<IActionResult> Index(int pg = 1, string sortType = "default")
         {
-            List<ProductModel> product =  _context.Products.ToList();
+            List<ProductModel> product =  _context.Products.Where(pr => pr.InStock > 0 && pr.Status == 1).ToList();
 
             const int pageSize = 8;
 
@@ -243,6 +243,10 @@ namespace Project_B.Controllers
                 {
                     if (file.Length > 0)
                     {
+                    if(file.FileName == "blob")
+                    {
+                        continue;
+                    }
 
                         fileName = $"Product_{newProduct.Id}_{currentDate}_{file.FileName}";
                         string filePath = Path.Combine(uploadFolder, fileName);
@@ -344,7 +348,7 @@ namespace Project_B.Controllers
         [HttpGet]
         public IActionResult ProductList()
         {
-            var productList = _context.Products.Where(pr => pr.Status == 1).ToList();
+            var productList = _context.Products.ToList();
             var categoryList = _context.Categories.ToList();
 
             ViewBag.ProductList = productList;
@@ -361,6 +365,20 @@ namespace Project_B.Controllers
             ViewBag.Categories = categories;
             ViewBag.Products = products;
             return PartialView("_CategoryListPartial");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SetStatusProduct(int id)
+        {
+            var product = await _context.Products.SingleOrDefaultAsync(pr => pr.Id == id);
+            if (product != null) {
+                if (product.Status == 1) {
+                    product.Status = 0;
+                }
+                _context.SaveChanges();
+                return Json(new { success = true, message = "Product delete successfully!" });
+            }
+            return Json(new { success = false, message = "Product delete unsuccessfully!" });
         }
 
         private bool ProductModelExists(int id)

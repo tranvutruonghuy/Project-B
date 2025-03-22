@@ -16,3 +16,6 @@
 .swal2-backdrop {
     z-index: 9998 !important; /* Overlay phải thấp hơn alert */
 }
+.a-success{
+    margin-right:10px;
+}

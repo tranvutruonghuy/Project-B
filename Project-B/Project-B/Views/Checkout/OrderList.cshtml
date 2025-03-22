@@ -52,7 +52,13 @@
                                                 <td>@item.Order.TotalValue.ToString("##,###")</td>
                                                 <td>@item.Order.OrderDate</td>
                                                 <td>@item.Order.PaymentMethod</td>
-                                                @if (item.Order.Status == 0)
+                                                @if (item.Order.IsCancel == 1)
+                                                {
+                                                    <td>
+                                                        <span class="badge bg-danger">Cancel</span>
+                                                    </td>
+                                                }
+                                                else if (item.Order.Status == 0)
                                                 {
                                                     <td>
                                                         <span class="badge bg-warning">Waiting</span>
@@ -63,6 +69,7 @@
                                                     </td>
                                                 }
                                                 <td>
+                                                    <button type="button" class="btn btn-sm btn-light" onclick="confirmOrder(@item.Order.Id)">Confirm</button>
                                                     <button type="button" class="btn btn-sm btn-light" onclick="seeDetailsOrder(@item.Order.Id)">Details</button>
                                                 </td>
                                             </tr>
@@ -174,6 +181,32 @@
                             icon: 'error',
                             title: 'Error',
                             text: 'Unable to fetch order details!'
+                        });
+                    }
+                });
+        }
+        function confirmOrder(orderId){
+            Swal.fire({
+                    title: 'Are you sure?',
+                    text: 'Do you really want to confirm this order?',
+                    icon: 'question',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes',
+                    cancelButtonText: 'No',
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: `/Checkout/ConfirmOrder/${orderId}`,
+                            type: 'POST',
+                            success: function(response) {
+                                Swal.fire('Confirm!', response.message, 'success');
+                            },  error: function(xhr) {                              
+                                    if (xhr.responseJSON && xhr.responseJSON.message) {
+                                        Swal.fire('Error!', xhr.responseJSON.message, 'error'); 
+                                    } else {
+                                        Swal.fire('Error!', 'An unexpected error occurred.', 'error'); 
+                                    }
+                                }
                         });
                     }
                 });

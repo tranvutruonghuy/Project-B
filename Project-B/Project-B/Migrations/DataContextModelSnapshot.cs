@@ -352,6 +352,9 @@ namespace Project_B.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
+                    b.Property<int>("IsCancel")
+                        .HasColumnType("int");
+
                     b.Property<string>("Note")
                         .IsRequired()
                         .HasMaxLength(255)
